@@ -1,0 +1,16 @@
+.building_image{
+    background-image: url("../../_assets/images/building.png");
+    background-size: cover;
+}
+.stay_connected_image{
+    background-image: url("../../_assets/images/stayconnected.png");
+    background-size: cover;
+}
+.background_image{
+    background-image: url("../../_assets/images/background.png");
+    background-size: cover;
+}
+.DLC_image{
+    background-image: url("../../_assets/images/DLC_Banner.png");
+    background-size: cover;
+}

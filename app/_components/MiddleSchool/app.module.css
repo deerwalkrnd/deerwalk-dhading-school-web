@@ -1,0 +1,151 @@
+.backgroundImage{
+    background-image: url("../../_assets/images/MS.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:70vh;
+}
+
+.evaluationImage{
+    background-image: url("../../_assets/images/evaluation_new.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pieImage{
+  background-image: url("../../_assets/images/piechart3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pieImageMid{
+  background-image: url("../../_assets/images/piechart\ mid.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pieImageHigh{
+  background-image: url("../../_assets/images/piechart\ high.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.creditImage{
+    background-image: url("../../_assets/images/credit.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:70vh;
+}
+.hex {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: -32px;
+  }
+  
+  .hex .top {
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+  
+  .hex .middle {
+    width: 200px;
+    height: 120px;
+    background: #6C6;
+  }
+  
+  .hex .bottom {
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+
+  .hex.hex0 .top{
+    border-bottom: 50px solid #0F5288;
+  }
+
+  .hex.hex1 .top{
+    border-bottom: 50px solid #5A94BD;
+  }
+
+  .hex.hex2 .top{
+    border-bottom: 50px solid #3573A3;
+  }
+
+  .hex.hex3 .top{
+    border-bottom: 50px solid #3D759D;
+  }
+
+  .hex.hex4 .top{
+    border-bottom: 50px solid #176DB2;
+  }
+
+  .hex.hex0 .bottom{
+    border-top: 50px solid #0F5288;
+  }
+
+  .hex.hex1 .bottom{
+    border-top: 50px solid #5A94BD;
+  }
+
+  .hex.hex2 .bottom{
+    border-top: 50px solid #3573A3;
+  }
+
+  .hex.hex3 .bottom{
+    border-top: 50px solid #3D759D;
+  }
+
+  .hex.hex4 .bottom{
+    border-top: 50px solid #176DB2;
+  }
+
+  .hex.hex0 .middle {
+    background: #0F5288;
+  }
+  
+  .hex.hex1 .middle {
+    background: #5A94BD;
+  }
+  
+  .hex.hex2 .middle {
+    background: #3573A3; 
+  }
+  
+  .hex.hex3 .middle {
+    background: #3D759D; 
+  }
+  
+  .hex.hex4 .middle {
+    background: #176DB2; 
+  }
+  
+  .hex-row {
+    clear: left;
+  }
+  
+  .hex-row.even {
+    margin-left: 53px;
+  }
+  
+  @media (max-width: 640px) {
+    .hex {
+        width: 150px;
+    }
+
+    .hex .top {
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+    }
+
+    .hex .middle {
+        width: 140px;
+        height: 90px;
+    }
+
+    .hex .bottom {
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+    }
+}
