@@ -5,7 +5,7 @@ const ADMISSION = "/#admission"
 const ACADEMICS = "/#academics"
 
 
-export default function FooterCardsII({text1, text2, text3, text4, text5, text6}:
+export default function FooterCardsII({text1, text2, text3, text4, text6}:
   {
     text1?: string;
     text2?: string;

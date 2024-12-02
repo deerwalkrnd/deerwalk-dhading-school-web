@@ -46,18 +46,14 @@ export default function NavLinks(): ReactElement {
 
   const MANAGEMENT_ROUTE = "/management";
   const OPPORTUNITIES_ROUTE = "/opportunities";
-  const ALUMNI_ROUTE = "/alumni";
   const CLUBS_ROUTE = "/clubs";
   const ELEMENTARY_ROUTE = "/elementary-school";
-  const PLUSTWO_ROUTE = "/plus-two";
   const EVENTS_ROUTE = "/events";
   const FACULTIES_ROUTE = "/faculties";
   const HOME_ROUTE = "/";
   const MIDDLESCHOOL_ROUTE = "/middle-school";
   const HIGHSCHOOL_ROUTE = "/high-school";
   const ADMINISTRATION_ROUTE = "/administration";
-  const SCHOOLPROSPECTUS_ROUTE = "https://application-dss.deerwalk.edu.np/sifalschoolprospectus_2024.pdf";
-  const PLUSTWOPROSPECTUS_ROUTE = "https://application-dss.deerwalk.edu.np/plusTwoProspectus.pdf"
 
   return (
     <div ref={navRef}>
