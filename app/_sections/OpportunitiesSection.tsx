@@ -12,7 +12,7 @@ export default function OpportunitiesSection(): ReactElement {
           image = {CommunityEngagementImage}
           classNameOne={`flex lg:flex-row lg:gap-28 gap-5 flex-col justify-center items-start `}
           heading="Community Engagement"
-          description="Students participate in initiatives that connect them with local organizations, fostering a sense of responsibility and belonging within the community "
+          description="Students participate in initiatives that connect them with local organizations, fostering a sense of responsibility and belonging within the community."
         />
 
         <OpportunitiesCard

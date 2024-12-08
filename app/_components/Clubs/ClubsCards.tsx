@@ -13,7 +13,7 @@ export default function ClubsCards({ title, image,}: { title ?: string, image: S
       height={272}
       />
       {/* Hover Effect */}
-      <div className="absolute bottom-0 left-0 w-full bg-[#FD8F16] text-white text-2xl font-semibold text-center py-2 opacity-100">
+      <div className="absolute bottom-0 left-0 w-full bg-DSS_Blue text-white text-2xl font-semibold text-center py-2 opacity-100">
        {title}
       </div>
     </div>

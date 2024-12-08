@@ -35,9 +35,9 @@ export default function LibraryCardII({
       <div className="lg:flex lg:flex-col flex-row w-fit h-full ml-10 hidden">
         <Link href="/transportation">
           <button
-            className={`border border-[#0F5288] w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
+            className={`border border-DSS_Blue w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
               title == "TRANSPORTATION"
-                ? "bg-[#0F5288] text-white hover:bg-[#1f4463]"
+                ? "bg-DSS_Blue text-white hover:bg-DSS_Blue"
                 : "bg-white"
             }`}
           >
@@ -46,9 +46,9 @@ export default function LibraryCardII({
         </Link>
         <Link href="/canteen">
           <button
-            className={`border border-[#0F5288] w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
+            className={`border border-DSS_Blue w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
               title == "CANTEEN"
-                ? "bg-[#0F5288] text-white hover:bg-[#1f4463]"
+                ? "bg-DSS_Blue text-white hover:bg-DSS_Blue"
                 : "bg-white"
             }`}
           >
@@ -57,9 +57,9 @@ export default function LibraryCardII({
         </Link>
         <Link href="/library">
           <button
-            className={`border border-[#0F5288] w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
+            className={`border border-DSS_Blue w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
               title == "LIBRARY"
-                ? "bg-[#0F5288] text-white hover:bg-[#1f4463]"
+                ? "bg-DSS_Blue text-white hover:bg-DSS_Blue"
                 : "bg-white"
             }`}
           >
@@ -68,9 +68,9 @@ export default function LibraryCardII({
         </Link>
         <Link href="/laboratories">
           <button
-            className={`border border-[#0F5288] w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
+            className={`border border-DSS_Blue w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
               title == "LABORATORIES"
-                ? "bg-[#0F5288] text-white hover:bg-[#1f4463]"
+                ? "bg-DSS_Blue text-white hover:bg-DSS_Blue"
                 : "bg-white"
             }`}
           >
@@ -79,9 +79,9 @@ export default function LibraryCardII({
         </Link>
         <Link href="/reading-corner">
           <button
-            className={`border border-[#0F5288] w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
+            className={`border border-DSS_Blue w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
               title == "READING CORNER"
-                ? "bg-[#0F5288] text-white hover:bg-[#1f4463]"
+                ? "bg-DSS_Blue text-white hover:bg-DSS_Blue"
                 : "bg-white"
             }`}
           >
@@ -90,9 +90,9 @@ export default function LibraryCardII({
         </Link>
         <Link href="/sports-yard">
           <button
-            className={`border border-[#0F5288] w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
+            className={`border border-DSS_Blue w-[12rem] py-2  text-[#0F5288] hover:bg-gray-100 font-semibold ${
               title == "SPORTS YARD"
-                ? "bg-[#0F5288] text-white hover:bg-[#1f4463]"
+                ? "bg-DSS_Blue text-white hover:bg-[#1f4463]"
                 : "bg-white"
             }`}
           >
