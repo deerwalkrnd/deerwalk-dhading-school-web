@@ -57,7 +57,7 @@ export default function NavLinks(): ReactElement {
 
   return (
     <div ref={navRef}>
-      <div className="flex justify-between px-4 md:px-10 lg:px-20 items-center p-1 bg-[#0F5288]">
+      <div className="flex justify-between px-4 md:px-10 lg:px-20 items-center p-1 bg-DSS_Blue">
         <Link href={HOME_ROUTE} className="flex flex-col">
           <Logo className="p-1" />
         </Link>

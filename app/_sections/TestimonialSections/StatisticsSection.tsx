@@ -20,24 +20,24 @@ export default function StatisticsSection() {
       <div className="flex lg:flex-row md:flex-row flex-col lg:justify-evenly md:justify-evenly justify-center lg:items-start md:items-start items-center w-full text-white z-10">
 
         <div className="flex gap-5 lg:w-full md:w-full w-44 justify-evenly lg:flex-row md:flex-row flex-col">
-          <StatisticsCard number="560" description="Students" />
+          <StatisticsCard number="190" description="Students" />
           <div className="border-solid lg:border-r-2 md:border-r-2  border-t-2 border-white mb-3" />
         </div>
 
 
         <div className="flex gap-5  lg:w-full md:w-full w-44 justify-evenly whitespace-nowrap lg:flex-row md:flex-row flex-col">
-          <StatisticsCard number="24" description="Student per Class" />
+          <StatisticsCard number="29" description="Teachers" />
           <div className="border-solid lg:border-r-2 md:border-r-2  border-t-2 border-white mb-3" />
         </div>
           
 
         <div className="flex gap-5 lg:w-full md:w-full w-44 justify-evenly lg:flex-row md:flex-row flex-col">
-          <StatisticsCard number="60" description="Teachers" />
+        <RatioCard description="Student : Teacher" ratio1="6.55" ratio2="1" />
           <div className="border-solid lg:border-r-2 md:border-r-2  border-t-2 border-white mb-3" />
         </div>
         
         <div className="lg:w-full md:w-full w-44 flex justify-center whitespace-nowrap lg:flex-row md:flex-row flex-col">
-          <RatioCard description="Student : Teacher" ratio1="9" ratio2="1" />
+          <RatioCard description="Boys : Girl" ratio1="59" ratio2="36" />
         </div>
       </div>
     </div>

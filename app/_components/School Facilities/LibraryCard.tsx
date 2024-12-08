@@ -14,7 +14,7 @@ export default function LibraryCard({
   imgPosition ?: string;
 }) {
   return (
-    <div className="lg:relative w-[350px] lg:w-[950px] xl:w-full lg:h-auto h-full overflow-hidden bg-[#0F5288] mx-auto">
+    <div className="lg:relative w-[350px] lg:w-[950px] xl:w-full lg:h-auto h-full overflow-hidden bg-DSS_Blue mx-auto">
       <Image
         src = {image}
         alt = "facility image1"

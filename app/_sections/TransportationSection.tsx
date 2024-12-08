@@ -23,7 +23,7 @@ export default function TransportationSection() {
             <LibraryCardII
               image = {TransportationImage2}
               classNameOne={`flex lg:flex-row-reverse lg:gap-28 gap-5 flex-col justify-center items-center`}
-              description="Sifal School provides safe and reliable transportation services to ensure students can commute to and from school conveniently. Our transportation is managed with care and prioritizes student safety."
+              description="DDS provides safe and reliable transportation services to ensure students can commute to and from school conveniently. Our transportation is managed with care and prioritizes student safety."
               title="TRANSPORTATION"
             />
           </div>

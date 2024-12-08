@@ -4,7 +4,7 @@ import AdmissionSection from "@/_sections/AdmissionSection";
 export default function FacilitiesPage() {
   return (
     <div className="flex flex-col justify-center overflow-hidden">
-      <div className=" flex justify-center w-full bg-[#0F5288] pt-10">
+      <div className=" flex justify-center w-full bg-DSS_Blue pt-10">
         <AdmissionSection />
       </div>
       {/* <div className="relative w-full"> */}

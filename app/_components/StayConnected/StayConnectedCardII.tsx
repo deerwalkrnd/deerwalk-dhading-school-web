@@ -6,7 +6,7 @@ import React from "react";
 export default function StayConnectedCardII({className,description, isRead, isWrite, isCode}:{className ?: string, description ?: string,className1 ?: string, isWrite ?: boolean, isRead ?: boolean, isCode ?: boolean}) {
   return (
     <div className="w-[272px] h-[280px] flex flex-col bg-white rounded-sm shadow-md overflow-hidden justify-between transform transition-transform duration-300 hover:-translate-y-8">
-      <div className="text-3xl flex justify-center items-center p-10 bg-[#0F5288] font-semibold text-white gap-4">
+      <div className="text-3xl flex justify-center items-center p-10 bg-DSS_Blue font-semibold text-white gap-4">
         {className}    
 
         {isRead &&<Read />}
