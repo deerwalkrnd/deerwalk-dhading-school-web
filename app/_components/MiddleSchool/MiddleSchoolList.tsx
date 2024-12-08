@@ -4,7 +4,7 @@ import CreditCourses from "@/_components/MiddleSchool/CreditCourses";
 import Evaluation from "@/_components/MiddleSchool/Evaluation";
 import GradeDivision2 from "./GradeDivision2";
 import Image from "next/image";
-import MSImage from "@/_assets/images/MS.png";
+import MSImage from "@/_assets/images/MS.jpg";
 
 export default function MiddleSchoolList(): ReactElement {
   return (
