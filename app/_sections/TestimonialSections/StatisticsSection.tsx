@@ -1,13 +1,13 @@
 import StatisticsCard from "@/_components/testimonial/StatisticsCard";
 import React from "react";
 import RatioCard from "@/_components/testimonial/RatioCard";
-import BackgroundImage from "@/_assets/images/stats.png";
+import BackgroundImage from "@/_assets/images/stats.jpg";
 import Image from "next/image";
 
 export default function StatisticsSection() {
   return (
     
-    <div className = {`w-full h-[29rem] flex items-center relative bg-gradient-to-b from-black/10 to-black/10`}>
+    <div className = {`w-full h-[29rem] flex items-center relative bg-gradient-to-b from-black/30 to-black/30`}>
       <Image
         src={BackgroundImage}
         alt = "background image"

@@ -3,7 +3,6 @@ import LibraryCard from "@/_components/School Facilities/LibraryCard";
 import Header2 from "@/_components/School Facilities/Header2";
 import LibraryCardII from "@/_components/School Facilities/LibraryCardII";
 import ReadingCornerImage from "@/_assets/images/ReadingCorner.jpg";
-import ReadingCornerImage2 from "@/_assets/images/ReadingCornerSingle.jpg"
 
 export default function ReadingCornerSection() {
   return (
@@ -21,7 +20,7 @@ export default function ReadingCornerSection() {
       </div>
       <div className="w-full container mx-auto">
         <LibraryCardII
-          image = {ReadingCornerImage2}
+          image = {ReadingCornerImage}
           classNameOne={`flex lg:flex-row-reverse lg:gap-28 gap-5 flex-col justify-center  items-center`}
           description="The Reading Corner is a cozy area designed to encourage students to read and enjoy literature. It provides a quiet space for relaxation and exploration of different genres and topics."
           title="READING CORNER"

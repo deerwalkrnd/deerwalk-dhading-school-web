@@ -16,6 +16,7 @@ export default function LibrarySection() {
           <LibraryCard
             title="LIBRARY"
             image = {LibraryImage}
+             imgPosition = "object-center"
             textSize="lg:text-5xl text-4xl"
           />
         </div>
