@@ -151,16 +151,16 @@ export default function NavLinks(): ReactElement {
         </div>
 
         <div className="hidden lg:flex text-end relative ">
-          <Link href="https://www.instagram.com/deerwalk_sifal_school/">
+          <Link href="">
             <Instagram className="w-6 lg:w-14" />
           </Link>
-          <Link href="https://www.facebook.com/DeerwalkSifalSchool">
+          <Link href="https://www.facebook.com/profile.php?id=61557434263234">
             <Facebook className="w-10 lg:w-14" />
           </Link>
-          <Link href="https://www.youtube.com/@sifalschool">
+          <Link href="https://www.youtube.com/@DeerwalkDhadingSchool">
             <Youtube className="w-10 lg:w-14 mr-3" />
           </Link>
-          <Link href="https://www.linkedin.com/company/deerwalksifalschool">
+          <Link href="https://www.linkedin.com/company/deerwalk-dhading-school/">
             <LinkedIn className="w-10 lg:w-14" />
           </Link>
         </div>
@@ -259,16 +259,16 @@ export default function NavLinks(): ReactElement {
                 />
               </Link>
               <div className="flex lg:hidden text-end gap-1 relative mt-4">
-                <Link href="https://www.instagram.com/deerwalk_sifal_school/">
+                <Link href="">
                   <Instagram className="w-10 lg:w-full" />
                 </Link>
-                <Link href="https://www.facebook.com/DeerwalkSifalSchool">
+                <Link href="https://www.facebook.com/profile.php?id=61557434263234">
                   <Facebook className="w-10 lg:w-full" />
                 </Link>
-                <Link href="https://www.youtube.com/@sifalschool">
+                <Link href="https://www.youtube.com/@DeerwalkDhadingSchool">
                   <Youtube className="w-10 lg:w-full " />
                 </Link>
-                <Link href="https://www.linkedin.com/company/deerwalksifalschool">
+                <Link href="https://www.linkedin.com/company/deerwalk-dhading-school/">
                   <LinkedIn className="w-10 lg:w-full" />
                 </Link>
               </div>
