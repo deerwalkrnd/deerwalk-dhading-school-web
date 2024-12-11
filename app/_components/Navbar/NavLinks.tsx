@@ -3,12 +3,13 @@
 import React, { ReactElement, useState, useEffect, useRef } from "react";
 import { usePathname } from 'next/navigation';
 import Link from "next/link";
-import Logo from "@/_assets/images/Logo.";
+import Logo from "@/_assets/images/Logo.png"
 import NavItem from "@/_components/Navbar/NavItem";
 import Instagram from "@/_assets/images/Instagram";
 import Facebook from "@/_assets/images/Facebook";
 import Youtube from "@/_assets/images/Youtube";
 import LinkedIn from "@/_assets/images/LinkedIn";
+import Image from "next/image";
 
 export default function NavLinks(): ReactElement {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
@@ -59,7 +60,11 @@ export default function NavLinks(): ReactElement {
     <div ref={navRef}>
       <div className="flex justify-between px-4 md:px-10 lg:px-20 items-center p-1 bg-DSS_Blue">
         <Link href={HOME_ROUTE} className="flex flex-col">
-          <Logo className="p-1" />
+          <Image 
+            src={Logo}
+            alt="Logo"
+            className="w-52 h-12  object-contain"
+          />
         </Link>
 
         <div
@@ -168,7 +173,11 @@ export default function NavLinks(): ReactElement {
         >
           <div className="flex justify-between items-center p-4 bg-[#0F5288]">
             <Link href="/">
-              <Logo />
+            <Image 
+            src={Logo}
+            alt="Logo"
+            className="w-52 h-52"
+          />
             </Link>
             <div className="cursor-pointer" onClick={handleMobileMenuToggle}>
               <svg

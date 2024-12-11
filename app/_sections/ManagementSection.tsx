@@ -2,8 +2,7 @@ import React from "react";
 import ManagementCard from "@/_components/Management/ManagementCard";
 import RudraSirImage from "@/_assets/images/rudrasir.png"
 import QuotationImage from "@/_assets/images/quotation.png"
-import UjjwalSirImage from "@/_assets/images/ujjwalsir.png"
-import MadhuSirImage from "@/_assets/images/madhusir.png"
+import NirmalSirImage from "@/_assets/images/Nirmalsir.png"
 
 export default function ManagementSection() {
   return (
@@ -20,21 +19,14 @@ export default function ManagementSection() {
       />
       <ManagementCard
         classNameOne="flex xl:flex-row-reverse flex-col max-w-[79.28rem] h-full xl:gap-20 gap-10 items-center"
-        image1={UjjwalSirImage}
+        image1={NirmalSirImage}
         image2 = {QuotationImage}
-        description="Deerwalk Sifal School firmly believes in education as a journey of discovery and the integration of new findings into each person's life.The Teaching Learning process incorporates a different methods, including collaborative learning, project-based activities, interdisciplinary projects and community engagement to ensure that students yield the best ideas that help them retain their knowledge throughout their lives. We mainly focus on reading, writing, coding, and major essential skills which serve as a medium to broaden the spectrum of young minds. "
-        desc="Apart from the advanced teaching process, we are committed to providing nurturing care from our highly skilled teachers, who apart from teaching, also serve as counselors to ensure an inclusive and unbiased environment for all. We provide the best approaches to meet each of our student's needs, valuing their interests and limitations to give them the best possible learning environment. One of our major goals in this journey is to help students bring out their hidden strengths and push their boundaries to excel in their field of interest and rise into capable individuals."
-        name="Ujjwal Poudel"
-        rank="- Vice Principal of Administrative Affairs"
-      />
-      <ManagementCard
-        classNameOne="flex xl:flex-row flex-col max-w-[79.28rem] h-full xl:gap-20 gap-10 items-center"
-         image1={MadhuSirImage}
-        image2 = {QuotationImage}
-        description="At Deerwalk Sifal School, we are committed to the holistic development of our students. Our integrated approach incorporates academic, personal, and social knowledge with practical life skills essential in preparing the students to thrive in the dynamic and ever-changing world that we live in."
-        desc="By fostering these skills, our curriculum readies our students not only for higher education but also for careers, well rounded lives, and more importantly: aid them in becoming tomorrow’s responsible and creative citizens."
-        name="Madhu Sudhan Bhusal"
-        rank="- Vice Principal of Academic Affairs"
+        description="Deerwalk Dhading School (DDS) is committed to fostering a culture of learning and inspiration. 
+        Our campus community places a strong emphasis on knowledge acquisition while upholding high standards in academics. 
+        We focus on four key pillars: Essential Skills, Language Proficiency, Academic Foundations, and Excellence in Extracurricular Activities (ECA), ensuring a well-rounded education for our students. 
+        With collaborative efforts from School Management, Students, Parents, and Teachers, we strive to unleash the inherent potential in every student, preparing them to become proud DDS Alumni and responsible global citizens."
+        name="Nirmal Kumar Paudel"
+        rank="- Principle"
       />
     </div>
   );
