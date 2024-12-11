@@ -24,7 +24,7 @@ export default function ManagementCard({
             <Image
                 src = {image1}
                 alt = "management image"
-                className="rounded-full w-[20rem] h-[20rem] xl:w-[25rem] xl:h-[25rem]"
+                className="rounded-full w-[20rem] h-[20rem] xl:w-[25rem] xl:h-[25rem] object-cover"
                 width={400}
                 height={400}
                 loading="eager"
@@ -33,7 +33,7 @@ export default function ManagementCard({
                 <Image
                     src = {image2}
                     alt = "quotation"
-                    className="w-[4rem] h-fit flex flex-col object-contain"
+                    className="w-[4rem] h-fit flex flex-col"
                     width={12}
                     height={12}
                 />
