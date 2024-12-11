@@ -5,7 +5,7 @@ export default function ElementaryList(): ReactElement {
   return (
     <div>
 <p className="text-center text-3xl text-[#00247F] font-semibold my-5">
-        DSS Credit Courses
+        DDS Credit Courses
       </p>
       <div className="flex flex-col items-center mb-10">
         <div className={`${styles.container} flex items-center justify-center flex-wrap sm:gap-0`}>

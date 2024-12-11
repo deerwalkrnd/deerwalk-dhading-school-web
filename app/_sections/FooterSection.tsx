@@ -12,7 +12,7 @@ export default function FooterSection() {
         <FooterCardsIII />
         <div className="flex flex-row w-fit gap-10 lg:gap-52">
           <FooterCardsII
-            text1="Why DSS?"
+            text1="Why DDS?"
             text2="Academics"
             text3="Management"
             text4="School Clubs"
