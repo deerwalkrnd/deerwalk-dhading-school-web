@@ -110,14 +110,6 @@ const Data = [
   },
   {
     hierarchy: "Teachers",
-    name: "Bideha Nidhi Bhattarai",
-    image: BidehaNidhiImage,
-    description: "Senior School (English)",
-    linkedIn:"https://www.linkedin.com/in/aakash-das-16635819a/",
-    gmail:"aakash.das@sifal.deerwalk.edu.np",
-  },
-  {
-    hierarchy: "Teachers",
     name: "Khemraj Muktan",
     image: KhemrajMuktanImage,
     description: "Senior School (Math)",
@@ -228,14 +220,7 @@ const Data = [
     linkedIn:"https://www.linkedin.com/in/hama-rajbhandari-37a693142/",
     gmail:"hama.rajbhandari@sifal.deerwalk.edu.np",
   },
-  {
-    hierarchy: "Teachers",
-    name: "Rajan Bhujel",
-    image: RajanBhujelImage,
-    description: "ECA (theatre)",
-    linkedIn:"https://www.linkedin.com/in/hangkeng-rai-514020301/",
-    gmail:"hangkeng.rai@sifal.deerwalk.edu.np",
-  },
+
   // {
   //   hierarchy: "Teachers",
   //   name: "Himal Parajuli",
@@ -244,14 +229,6 @@ const Data = [
   //   linkedIn:"https://www.linkedin.com/in/himal-parajuli-5577152b2",
   //   gmail:"himal.parajulii@sifal.deerwalk.edu.np",
   // },
-  {
-    hierarchy: "Teachers",
-    name: "Sanjog Malla",
-    image: SanjogMallaImage,
-    description: "ECA (Music)",
-    linkedIn:"https://www.linkedin.com/in/ishan-kewrat-850651335/",
-    gmail:"ishan.kewrat@sifal.deerwalk.edu.np",
-  },
   // {
   //   hierarchy: "Teachers",
   //   name: "Milan Lamichhane",
@@ -260,14 +237,7 @@ const Data = [
   //   linkedIn:"https://www.linkedin.com/in/milanl/",
   //   gmail:"milan.lamichhane@deerwalk.edu.np",
   // },
-  {
-    hierarchy: "Teachers",
-    name: "Sujan Pandit",
-    image: SujanPanditImage,
-    description: "ECA (Taekwando)",
-    linkedIn:"https://www.linkedin.com/in/mohanpradhan42",
-    gmail:"mohan.pradhan@sifal.deerwalk.edu.np",
-  },
+  
   
 ];
 
