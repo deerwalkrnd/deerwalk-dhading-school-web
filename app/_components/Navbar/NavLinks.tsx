@@ -52,9 +52,9 @@ export default function NavLinks(): ReactElement {
   const EVENTS_ROUTE = "/events";
   const FACULTIES_ROUTE = "/faculties";
   const HOME_ROUTE = "/";
-  const MIDDLESCHOOL_ROUTE = "/middle-school";
   const HIGHSCHOOL_ROUTE = "/high-school";
   const ADMINISTRATION_ROUTE = "/administration";
+  const MIDDLE_ROUTE = "/middle-school";
 
   return (
     <div ref={navRef}>
@@ -122,9 +122,14 @@ export default function NavLinks(): ReactElement {
             isOpen={activeMenu === "academics"}
             onToggle={() => handleMenuToggle("academics")}
             dropdownItems={[
-              { label: "Elementary School", href: ELEMENTARY_ROUTE },
-              { label: "Middle School", href: MIDDLESCHOOL_ROUTE },
-              { label: "High School", href: HIGHSCHOOL_ROUTE },
+              { label: "Junior School", href: ELEMENTARY_ROUTE },
+              { 
+                label: "Senior School", 
+                subMenu: [
+                  {label: "Middle School", href: MIDDLE_ROUTE},
+                  {label: "High School", href: HIGHSCHOOL_ROUTE}
+                ]
+              },
             ]}
           />
           <NavItem
@@ -151,7 +156,7 @@ export default function NavLinks(): ReactElement {
         </div>
 
         <div className="hidden lg:flex text-end relative ">
-          <Link href="">
+          <Link href="https://www.instagram.com/dhading_school">
             <Instagram className="w-6 lg:w-14" />
           </Link>
           <Link href="https://www.facebook.com/profile.php?id=61557434263234">
@@ -176,7 +181,7 @@ export default function NavLinks(): ReactElement {
             <Image 
             src={Logo}
             alt="Logo"
-            className="w-52 h-52"
+            className="w-52 h-12 object-contain"
           />
             </Link>
             <div className="cursor-pointer" onClick={handleMobileMenuToggle}>
@@ -228,15 +233,20 @@ export default function NavLinks(): ReactElement {
                 ]}
               />
               <NavItem
-                label="Academics"
-                isOpen={activeMenu === "academics"}
-                onToggle={() => handleMenuToggle("academics")}
-                dropdownItems={[
-                  { label: "Elementary School", href: ELEMENTARY_ROUTE },
-                  { label: "Middle School", href: MIDDLESCHOOL_ROUTE },
-                  { label: "High School", href: HIGHSCHOOL_ROUTE },
-                ]}
-              />
+            label="Academics"
+            isOpen={activeMenu === "academics"}
+            onToggle={() => handleMenuToggle("academics")}
+            dropdownItems={[
+              { label: "Junior School", href: ELEMENTARY_ROUTE },
+              { 
+                label: "Senior School", 
+                subMenu: [
+                  {label: "Middle School", href: MIDDLE_ROUTE},
+                  {label: "High School", href: HIGHSCHOOL_ROUTE}
+                ]
+              },
+            ]}
+          />
               <NavItem
                 label="Beyond Classroom"
                 isOpen={activeMenu === "beyond"}
@@ -259,7 +269,7 @@ export default function NavLinks(): ReactElement {
                 />
               </Link>
               <div className="flex lg:hidden text-end gap-1 relative mt-4">
-                <Link href="">
+                <Link href="https://www.instagram.com/dhading_school">
                   <Instagram className="w-10 lg:w-full" />
                 </Link>
                 <Link href="https://www.facebook.com/profile.php?id=61557434263234">
