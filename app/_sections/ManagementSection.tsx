@@ -26,7 +26,7 @@ export default function ManagementSection() {
         We focus on four key pillars: Essential Skills, Language Proficiency, Academic Foundations, and Excellence in Extracurricular Activities (ECA), ensuring a well-rounded education for our students. 
         With collaborative efforts from School Management, Students, Parents, and Teachers, we strive to unleash the inherent potential in every student, preparing them to become proud DDS Alumni and responsible global citizens."
         name="Nirmal Kumar Paudel"
-        rank="- Principle"
+        rank="- Principal"
       />
     </div>
   );

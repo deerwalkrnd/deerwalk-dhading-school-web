@@ -19,12 +19,8 @@ export default function AdmissionSection() {
         <p className="">For immediate assistance, please contact us at:</p>
         <div className="flex justify-center gap-20">
           <div>
-          <p className="pt-1 font-semibold">Alisha Shakya </p>
-          <p> Admission Officer</p><p> 9851064445</p>
-          </div>
-          <div>
-          <p className="pt-1 font-semibold">Usha Adhikari </p>
-          <p> Finance Officer</p><p> 9861789947</p>
+          <p className="pt-1 font-semibold">Jelina Joshi  </p>
+          <p> Admission Officer</p><p>976-7220526</p>
           </div>
         </div>
         
