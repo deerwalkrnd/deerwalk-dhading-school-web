@@ -18,9 +18,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "Deerwalk Dhading School",
-    description: "Deerwalk Dhading School is a .....",
-};
+    title: {
+      template: '%s | Deerwalk Dhading School',
+      default: 'Deerwalk Dhading School',
+    },
+  }
 
 export default function RootLayout({
     children,
