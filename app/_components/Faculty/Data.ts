@@ -8,7 +8,6 @@ import StutiPandeyImage from "@/public/images/faculty/Stuti Pandey.jpg";
 import BijayaBharatiImage from "@/public/images/faculty/Bijaya Bharati.jpg";
 import JunaKarkiImage from "@/public/images/faculty/Juna Karki.jpg";
 import SachinKumarYadavImage from "@/public/images/faculty/Sachin Kumar Yadav.jpg";
-import BidehaNidhiImage from "@/public/images/faculty/Aakash_Chandra_Giri.png";
 import NipeshDhakalImage from "@/public/images/faculty/Nipesh Dhakal.jpg";
 import KhemrajMuktanImage from "@/public/images/faculty/Khemraj Muktan.jpg";
 import PramilaAdhikariImage from "@/public/images/faculty/Pramila Adhikari.jpg";
@@ -16,14 +15,11 @@ import SantoshShahImage from "@/public/images/faculty/Santosh Shah.jpg";
 import LaxmiTiwariImage from "@/public/images/faculty/Laxmi Tiwari.jpg";
 import SureshTimalsinaImage from "@/public/images/faculty/Suresh Timalsina.jpg";
 import DibyaDarsiImage from "@/public/images/faculty/Dibyadarsi Nepal.jpg";
-  import BishnuParajuliImage from "@/public/images/faculty/Bishnu Prasad Prajuli.jpg";
+import BishnuParajuliImage from "@/public/images/faculty/Bishnu Prasad Prajuli.jpg";
 import PrakashSinghImage from "@/public/images/faculty/Prakash Singh.jpg";
 import RojitaBhandariImage from "@/public/images/faculty/Chanda_Pandey.png";
 import SonyAdhikariImage from "@/public/images/faculty/Choodamani_Bhattarai.png";
 import GauravBajracharyaImage from "@/public/images/faculty/Domankala_Limbu.png";
-import RajanBhujelImage from "@/public/images/faculty/Hama_Rajbhandari.png";
-import SanjogMallaImage from "@/public/images/faculty/Hangkeng_Rai.png";
-import SujanPanditImage from "@/public/images/faculty/Sujan Pandit.jpg";
 
 
 const Data = [
