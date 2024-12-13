@@ -7,7 +7,6 @@ import SportsMeet2 from "@/_assets/images/DDS Sports Meet Day2.jpg";
 import JuniorTalentImage from "@/_assets/images/Junior Talent Show.jpg";
 import SeniorTalentImage from "@/_assets/images/Senior Talent Show.jpg";
 import NationalScienceImage from "@/_assets/images/National Science Day.jpg";
-import GraduationImage from "@/_assets/images/Graduation.jpg";
 
 export default function BodyCard() {
   return (
