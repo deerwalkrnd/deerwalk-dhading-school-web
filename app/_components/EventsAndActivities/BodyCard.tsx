@@ -1,60 +1,54 @@
 import React from "react";
 import EventsCard from "./EventsCard";
-import SifalNightImage from "@/_assets/images/DSN7and8.jpg";
-import NationalMuseumImage from "@/_assets/images/stayconnected.png";
-import NaturalHistoryMuseumImage from "@/_assets/images/background.png";
-import StudentExchangeProgramImage from "@/_assets/images/DLC_Banner.png";
-import DeerwalkSifalSchoolImageVandVI from "@/_assets/images/sifalnight.jpg";
-import ProjectWorkDisplayImage from "@/_assets/images/ProjectWorkdisplay.jpg";
-import DeerwalkSifalSchoolImageIandII from "@/_assets/images/DSNOneandTwo.jpg";
-import GraduationImage from "@/_assets/images/Graduation.jpg"
-
+import ChildrensDayImage from "@/_assets/images/Childrens Day.jpg";
+import ParentsTalk from "@/_assets/images/DDS Parents Talk.jpg";
+import SportsMeet1 from "@/_assets/images/DDS Sports Meet Day1.jpg";
+import SportsMeet2 from "@/_assets/images/DDS Sports Meet Day2.jpg";
+import JuniorTalentImage from "@/_assets/images/Junior Talent Show.jpg";
+import SeniorTalentImage from "@/_assets/images/Senior Talent Show.jpg";
+import NationalScienceImage from "@/_assets/images/National Science Day.jpg";
 
 export default function BodyCard() {
   return (
     <div className="flex flex-col w-full gap-20">
       <div className="flex flex-col justify-center items-center lg:flex-row gap-20 px-4 sm:px-10 lg:px-20">
         <EventsCard
-          image = {SifalNightImage}
-          heading="Deerwalk Sifal Night | Grade 7&8"
-          description="Deerwalk Sifal School held Deerwalk Sifal Night on Ashwin 11, 2081, where Grades VII and VIII showcased talents in music, dance, theatre, and more, earning enthusiastic cheers from parents."
+          image={ChildrensDayImage}
+          heading="Children's Day"
+          description="Deerwalk Dhading School celebrated Children's Day with a variety of engaging performances. Teachers participated in dances, musical performances, recited poems, and presented a lok dohori portraying both teachers and students. The students were thrilled and excited to see their teachers perform for them. The program ended with smiles and laughter."
         />
         <EventsCard
-          image = {NationalMuseumImage}
-          heading="Visit to National Museum | Grade 4"
-          description="Grade IV students visited the National Museum in Chhauni, exploring Nepalese art styles across various galleries and viewing ancient pieces from the 14th to 18th centuries."
+          image={ParentsTalk}
+          heading="DDS Parent's Talk"
+          description="We are delighted to report the successful hosting of 𝗣𝗮𝗿𝗲𝗻𝘁𝘀 𝗧𝗮𝗹𝗸  session on 𝗔𝘀𝗵𝘄𝗶𝗻 𝟮. This event invited parents to share motivational lectures, struggles, and successes.
+          We were honored to have 𝗠𝗿. 𝗦𝗵𝗲𝗸𝗵𝗮𝗿 𝗞𝗮𝗿𝗸𝗶 lead this month’s session and share his experiences and life stories. It was a memorable event that achieved its objective of inspiring and guiding our students"
         />
         <EventsCard
-          image = {NaturalHistoryMuseumImage}
-          heading="Visit to Natural History Museum | Grade 3"
-          description="Grade III students visited the Natural History Museum in Swoyambhu to learn about Nepal's diverse animal species. They explored taxidermy exhibits, bones, fossils, and insect collections, sparking curiosity and deeper understanding."
+          image={SportsMeet1}
+          heading="DDS Sports Meet Day1"
+          description="The first day of Deerwalk Dhading School's Sports Meet has successfully concluded, filled with energy, enthusiasm, and healthy competition. Students showcased remarkable talent and team spirit across various events, setting the tone for an exciting series ahead. We look forward to more action and memorable moments as the Sports Meet continues!"
         />
         <EventsCard
-          image = {StudentExchangeProgramImage}
-          heading="Student Exchange Program | Grade 8"
-          description="On September 23, 2024, 17 Grade 8 students visited Deerwalk Dhading School with Mr. Durga Puri from the Nepali department. Paired with local students, they followed the school routine, toured the campus, and enjoyed the welcoming ambiance."
+          image={SportsMeet2}
+          heading="DDS Sports Meet Day2"
+          description="Day 2 of the Deerwalk Dhading School Sports Meet brought even more excitement and achievements! Our students displayed outstanding resilience and teamwork, pushing their limits across various athletic events. With every competition, the energy and enthusiasm continue to rise, and we’re thrilled to see such strong sportsmanship from all our participants!"
         />
       </div>
       <div className="flex flex-col justify-center items-center lg:flex-row gap-20 px-4 sm:px-10 lg:px-20">
         <EventsCard
-          image = {DeerwalkSifalSchoolImageVandVI}
-          heading="Deerwalk Sifal School | Grade 5&6"
-          description="On 4th Asoj, 2081, lower Middle Schoolers enthusiastically hosted Deerwalk Sifal Night. Parents enjoyed diverse performances, including drama, songs, themed dances, artwork displays, and engaging interludes, all thoughtfully presented."
+          image={JuniorTalentImage}
+          heading="Junior Talent Show"
+          description="Today, our brilliant juniors took center stage in a glittering display of talent, each showcasing their skills and ingenuity. From captivating performance to outstanding act, each student shone and did us proud."
         />
         <EventsCard
-          image = {ProjectWorkDisplayImage}
-          heading="Project Work Display | National Education Day"
-          description="On National Education Day, students from Grades 1 to 12 showcased their Project Work in STEM, Social Science, Language, and more, highlighting Term I’s dedication and creativity. This hands-on approach, a core part of Sifal School’s teaching, fosters learning through experience and is practiced each term. ."
+          image={SeniorTalentImage}
+          heading="Senior Talent Show"
+          description="Our senior students amazed us today with a display of skill, creativity, and confidence at the talent show! Each performance reflected their dedication and unique flair, leaving the audience inspired and proud."
         />
         <EventsCard
-          image = {DeerwalkSifalSchoolImageIandII}
-          heading="Deerwalk Sifal School | Grade 1&2"
-          description="Deerwalk Sifal Night on Bhadra 14 was unforgettable as Grade 1 and 2 students showcased their talents through lively dances and creative art displays. The highlight was the beautiful Mithila Art, with vibrant colors and intricate patterns, adding cultural charm to the event. Parents beamed with pride, celebrating their children's achievements."
-        />
-        <EventsCard
-          image = {GraduationImage}
-          heading="Graduation"
-          description="The graduation ceremony celebrates students' achievements with honors for excellence in clubs, community service, public speaking, and academics. Heartfelt speeches from faculty and families, along with a valedictorian address and closing remarks by Chairperson Mr. Hitesh Karki, made it a proud and memorable event."
+          image={NationalScienceImage}
+          heading="National Science Day"
+          description="Deerwalk Dhading School celebrated the 12th National Science Day. Students from different grades demonstrated various experiments and projects to instil enthusiasm toward science among their peers. The program ended with the students having renewed their sense of awe and curiosity."
         />
       </div>
     </div>

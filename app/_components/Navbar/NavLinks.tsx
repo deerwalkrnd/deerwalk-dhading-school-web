@@ -3,12 +3,13 @@
 import React, { ReactElement, useState, useEffect, useRef } from "react";
 import { usePathname } from 'next/navigation';
 import Link from "next/link";
-import Logo from "@/_assets/images/Logo.";
+import Logo from "@/_assets/images/Logo.png"
 import NavItem from "@/_components/Navbar/NavItem";
 import Instagram from "@/_assets/images/Instagram";
 import Facebook from "@/_assets/images/Facebook";
 import Youtube from "@/_assets/images/Youtube";
 import LinkedIn from "@/_assets/images/LinkedIn";
+import Image from "next/image";
 
 export default function NavLinks(): ReactElement {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
@@ -51,15 +52,19 @@ export default function NavLinks(): ReactElement {
   const EVENTS_ROUTE = "/events";
   const FACULTIES_ROUTE = "/faculties";
   const HOME_ROUTE = "/";
-  const MIDDLESCHOOL_ROUTE = "/middle-school";
   const HIGHSCHOOL_ROUTE = "/high-school";
   const ADMINISTRATION_ROUTE = "/administration";
+  const MIDDLE_ROUTE = "/middle-school";
 
   return (
     <div ref={navRef}>
-      <div className="flex justify-between px-4 md:px-10 lg:px-20 items-center p-1 bg-[#0F5288]">
+      <div className="flex justify-between px-4 md:px-10 lg:px-20 items-center p-1 bg-DSS_Blue">
         <Link href={HOME_ROUTE} className="flex flex-col">
-          <Logo className="p-1" />
+          <Image 
+            src={Logo}
+            alt="Logo"
+            className="w-52 h-12  object-contain"
+          />
         </Link>
 
         <div
@@ -117,9 +122,14 @@ export default function NavLinks(): ReactElement {
             isOpen={activeMenu === "academics"}
             onToggle={() => handleMenuToggle("academics")}
             dropdownItems={[
-              { label: "Elementary School", href: ELEMENTARY_ROUTE },
-              { label: "Middle School", href: MIDDLESCHOOL_ROUTE },
-              { label: "High School", href: HIGHSCHOOL_ROUTE },
+              { label: "Junior School", href: ELEMENTARY_ROUTE },
+              { 
+                label: "Senior School", 
+                subMenu: [
+                  {label: "Middle School", href: MIDDLE_ROUTE},
+                  {label: "High School", href: HIGHSCHOOL_ROUTE}
+                ]
+              },
             ]}
           />
           <NavItem
@@ -133,7 +143,7 @@ export default function NavLinks(): ReactElement {
             ]}
           />
           <Link
-            href="https://application-dss.deerwalk.edu.np/"
+            href="https://application-dds.deerwalk.edu.np/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -146,16 +156,16 @@ export default function NavLinks(): ReactElement {
         </div>
 
         <div className="hidden lg:flex text-end relative ">
-          <Link href="https://www.instagram.com/deerwalk_sifal_school/">
+          <Link href="https://www.instagram.com/dhading_school">
             <Instagram className="w-6 lg:w-14" />
           </Link>
-          <Link href="https://www.facebook.com/DeerwalkSifalSchool">
+          <Link href="https://www.facebook.com/profile.php?id=61557434263234">
             <Facebook className="w-10 lg:w-14" />
           </Link>
-          <Link href="https://www.youtube.com/@sifalschool">
+          <Link href="https://www.youtube.com/@DeerwalkDhadingSchool">
             <Youtube className="w-10 lg:w-14 mr-3" />
           </Link>
-          <Link href="https://www.linkedin.com/company/deerwalksifalschool">
+          <Link href="https://www.linkedin.com/company/deerwalk-dhading-school/">
             <LinkedIn className="w-10 lg:w-14" />
           </Link>
         </div>
@@ -168,7 +178,11 @@ export default function NavLinks(): ReactElement {
         >
           <div className="flex justify-between items-center p-4 bg-[#0F5288]">
             <Link href="/">
-              <Logo />
+            <Image 
+            src={Logo}
+            alt="Logo"
+            className="w-52 h-12 object-contain"
+          />
             </Link>
             <div className="cursor-pointer" onClick={handleMobileMenuToggle}>
               <svg
@@ -219,15 +233,20 @@ export default function NavLinks(): ReactElement {
                 ]}
               />
               <NavItem
-                label="Academics"
-                isOpen={activeMenu === "academics"}
-                onToggle={() => handleMenuToggle("academics")}
-                dropdownItems={[
-                  { label: "Elementary School", href: ELEMENTARY_ROUTE },
-                  { label: "Middle School", href: MIDDLESCHOOL_ROUTE },
-                  { label: "High School", href: HIGHSCHOOL_ROUTE },
-                ]}
-              />
+            label="Academics"
+            isOpen={activeMenu === "academics"}
+            onToggle={() => handleMenuToggle("academics")}
+            dropdownItems={[
+              { label: "Junior School", href: ELEMENTARY_ROUTE },
+              { 
+                label: "Senior School", 
+                subMenu: [
+                  {label: "Middle School", href: MIDDLE_ROUTE},
+                  {label: "High School", href: HIGHSCHOOL_ROUTE}
+                ]
+              },
+            ]}
+          />
               <NavItem
                 label="Beyond Classroom"
                 isOpen={activeMenu === "beyond"}
@@ -239,7 +258,7 @@ export default function NavLinks(): ReactElement {
                 ]}
               />
               <Link
-                href="https://application-dss.deerwalk.edu.np/"
+                href="https://application-dds.deerwalk.edu.np/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -250,16 +269,16 @@ export default function NavLinks(): ReactElement {
                 />
               </Link>
               <div className="flex lg:hidden text-end gap-1 relative mt-4">
-                <Link href="https://www.instagram.com/deerwalk_sifal_school/">
+                <Link href="https://www.instagram.com/dhading_school">
                   <Instagram className="w-10 lg:w-full" />
                 </Link>
-                <Link href="https://www.facebook.com/DeerwalkSifalSchool">
+                <Link href="https://www.facebook.com/profile.php?id=61557434263234">
                   <Facebook className="w-10 lg:w-full" />
                 </Link>
-                <Link href="https://www.youtube.com/@sifalschool">
+                <Link href="https://www.youtube.com/@DeerwalkDhadingSchool">
                   <Youtube className="w-10 lg:w-full " />
                 </Link>
-                <Link href="https://www.linkedin.com/company/deerwalksifalschool">
+                <Link href="https://www.linkedin.com/company/deerwalk-dhading-school/">
                   <LinkedIn className="w-10 lg:w-full" />
                 </Link>
               </div>

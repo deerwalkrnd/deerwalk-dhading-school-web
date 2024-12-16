@@ -16,6 +16,7 @@ export default function LibrarySection() {
           <LibraryCard
             title="LIBRARY"
             image = {LibraryImage}
+             imgPosition = "object-center"
             textSize="lg:text-5xl text-4xl"
           />
         </div>
@@ -23,7 +24,7 @@ export default function LibrarySection() {
           <LibraryCardII
             image = {LibraryImage2}
             classNameOne={`flex lg:flex-row-reverse lg:gap-28 gap-5 flex-col justify-center  items-center`}
-            description="The library at Sifal School is a welcoming space for students to explore a wide range of books and resources. It supports their learning and research needs while fostering a love for reading."
+            description="The library at DDS is a welcoming space for students to explore a wide range of books and resources. It supports their learning and research needs while fostering a love for reading."
             title="LIBRARY"
           />
         </div>

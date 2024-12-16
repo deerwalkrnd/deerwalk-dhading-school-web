@@ -14,7 +14,7 @@ export default function DescriptionSection() {
   )?.description;
 
   return (
-    <div className="h-[33.5rem] w-full bg-[#0F5288] flex justify-center items-center relative p-4 sm:p-6 md:p-8">
+    <div className="h-[33.5rem] w-full bg-DSS_Blue flex justify-center items-center relative p-4 sm:p-6 md:p-8">
       <div className="max-w-[79rem] w-full h-full  flex flex-row lg:flex-col items-center gap-8 justify-evenly">
         <div className="flex flex-col gap-6 lg:flex-row text-lg sm:text-xl md:text-2xl lg:text-3xl text-white font-semibold justify-center">
           {titleCards.map((card) => (

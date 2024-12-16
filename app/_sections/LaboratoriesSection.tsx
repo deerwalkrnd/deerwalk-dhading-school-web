@@ -16,7 +16,7 @@ export default function LaboratoriesSection() {
           <LibraryCard
             title="LABORATORIES"
             image = {LaboratoryImage}
-            imgPosition = "object-bottom"
+            imgPosition = "object-center"
             textSize="lg:text-5xl text-4xl"
           />
         </div>

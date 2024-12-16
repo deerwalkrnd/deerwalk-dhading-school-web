@@ -10,7 +10,7 @@ export default function ElementaryList(): ReactElement {
     <div className="">
       <div className="h-fit relative">
         <p className="absolute bottom-5 text-center w-full ml-40% font-semibold text-5xl sm:ml-0 sm:text-[3.5rem] text-white z-20">
-          ELEMENTARY SCHOOL
+          JUNIOR SCHOOL
         </p>
         <div>
           <Image 
