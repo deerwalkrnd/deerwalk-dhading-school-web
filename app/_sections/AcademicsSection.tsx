@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import highSchool from "@/_assets/images/high.png";
-import middleSchool from "@/_assets/images/middle.png";
 import elementarySchool from "@/_assets/images/lower.png";
 
 export default function AcademicsSection() {
