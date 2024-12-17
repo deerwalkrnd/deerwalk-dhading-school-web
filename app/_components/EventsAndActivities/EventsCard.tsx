@@ -13,7 +13,7 @@ export default function EventsCard({description, heading, image}:{description ?:
       />
 
       {/* Content Section */}
-      <div className="flex flex-col pt-4 h-[280px] gap-2">
+      <div className="flex flex-col pt-4 gap-2 min-h-[280px]">
         <p className="pl-4 text-lg font-bold">{heading}</p>
         <p className="text-gray-700 text-base mb-4 pl-4">
           {description}

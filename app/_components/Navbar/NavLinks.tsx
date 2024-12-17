@@ -143,7 +143,7 @@ export default function NavLinks(): ReactElement {
             ]}
           />
           <Link
-            href="https://application-dss.deerwalk.edu.np/"
+            href="https://application-dds.deerwalk.edu.np/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -258,7 +258,7 @@ export default function NavLinks(): ReactElement {
                 ]}
               />
               <Link
-                href="https://application-dss.deerwalk.edu.np/"
+                href="https://application-dds.deerwalk.edu.np/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
