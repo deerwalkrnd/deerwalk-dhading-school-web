@@ -37,7 +37,7 @@ export default function StatisticsSection() {
         </div>
         
         <div className="lg:w-full md:w-full w-44 flex justify-center whitespace-nowrap lg:flex-row md:flex-row flex-col">
-          <RatioCard description="Boys : Girl" ratio1="59" ratio2="36" />
+          <RatioCard description="Boy : Girl" ratio1="5" ratio2="3" />
         </div>
       </div>
     </div>

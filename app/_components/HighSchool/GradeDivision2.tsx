@@ -15,8 +15,8 @@ export default function GradeDivision2() {
   ];
 
   return (
-    <div className="flex items-center justify-center mt-10">
-      <div className="grid grid-cols-5 gap-2 lg:gap-20">
+    <div className="flex items-center justify-center mt-10 2xl:mx-24 ">
+      <div className="flex flex-row flex-wrap justify-center items-center gap-10">
         {classes.map((cls) => (
           <GradeDivision key={cls.number} number={cls.number}/>
         ))}
