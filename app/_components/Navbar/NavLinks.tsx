@@ -156,16 +156,16 @@ export default function NavLinks(): ReactElement {
         </div>
 
         <div className="hidden lg:flex text-end relative ">
-          <Link href="https://www.instagram.com/dhading_school">
+          <Link href="https://www.instagram.com/dhading_school" target="blank">
             <Instagram className="w-6 lg:w-14" />
           </Link>
-          <Link href="https://www.facebook.com/profile.php?id=61557434263234">
+          <Link href="https://www.facebook.com/profile.php?id=61557434263234" target="blank">
             <Facebook className="w-10 lg:w-14" />
           </Link>
-          <Link href="https://www.youtube.com/@DeerwalkDhadingSchool">
+          <Link href="https://www.youtube.com/@DeerwalkDhadingSchool" target="blank">
             <Youtube className="w-10 lg:w-14 mr-3" />
           </Link>
-          <Link href="https://www.linkedin.com/company/deerwalk-dhading-school/">
+          <Link href="https://www.linkedin.com/company/deerwalk-dhading-school/" target="blank">
             <LinkedIn className="w-10 lg:w-14" />
           </Link>
         </div>
@@ -269,7 +269,7 @@ export default function NavLinks(): ReactElement {
                 />
               </Link>
               <div className="flex lg:hidden text-end gap-1 relative mt-4">
-                <Link href="https://www.instagram.com/dhading_school">
+                <Link href="https://www.instagram.com/deerwalk.dhading.school/?hl=en" target="_blank">
                   <Instagram className="w-10 lg:w-full" />
                 </Link>
                 <Link href="https://www.facebook.com/profile.php?id=61557434263234">

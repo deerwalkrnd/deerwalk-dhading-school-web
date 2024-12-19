@@ -21,10 +21,9 @@ import RojitaBhandariImage from "@/public/images/faculty/Chanda_Pandey.png";
 import SonyAdhikariImage from "@/public/images/faculty/Choodamani_Bhattarai.png";
 import GauravBajracharyaImage from "@/public/images/faculty/Domankala_Limbu.png";
 
-
 const Data = [
   {
-    hierarchy: "Administration",
+    hierarchy: "Principal",
     name: "Nirmal Kumar Poudel",
     image: NirmalKumarPoudelImage,
     description: "Principal",
@@ -32,7 +31,7 @@ const Data = [
     gmail:"ujjwal.poudel@sifal.deerwalk.edu.np",
   },
   {
-    hierarchy: "Administration",
+    hierarchy: "HoS",
     name: "Reshika Joshi",
     image: ReshikaImage,
     description: "HoS (ES)",
@@ -40,7 +39,7 @@ const Data = [
     gmail:"madhu.bhusal@sifal.deerwalk.edu.np",
   },
   {
-    hierarchy: "Administration",
+    hierarchy: "HoS",
     name: "Rohit Ghimire",
     image: RohitGhimireImage,
     description: "HoS (HS)",
