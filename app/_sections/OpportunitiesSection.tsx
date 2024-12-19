@@ -19,7 +19,7 @@ export default function OpportunitiesSection(): ReactElement {
           image = {TeachingAssistanceImage}
           classNameOne={`flex lg:flex-row-reverse lg:gap-28 gap-5 flex-col justify-center items-start`}
           heading="Teaching Assistance"
-          description="Students can reinforce their knowledge and support their peers by taking on teaching assistant roles, enhancing their learning experience."
+          description="Students can reinforce their knowledge and support their peers by taking on teaching assistant roles, enhancing their learning experience"
         />
 
         <OpportunitiesCard

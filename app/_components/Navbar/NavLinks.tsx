@@ -269,7 +269,7 @@ export default function NavLinks(): ReactElement {
                 />
               </Link>
               <div className="flex lg:hidden text-end gap-1 relative mt-4">
-                <Link href="https://www.instagram.com/dhading_school" target="_blank">
+                <Link href="https://www.instagram.com/deerwalk.dhading.school/?hl=en" target="_blank">
                   <Instagram className="w-10 lg:w-full" />
                 </Link>
                 <Link href="https://www.facebook.com/profile.php?id=61557434263234">
