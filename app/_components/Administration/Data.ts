@@ -13,7 +13,7 @@ const Data = [
     name: "Jelina Joshi",
     image: JelinaJoshiImage,
     description: "Associate Finance Officer",
-    linkedIn: "https://www.linkedin.com/in/sagina-maharjan-1053271b1/",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
     gmail: "sagina.maharjan@sifal.deerwalk.edu.np",
   },
   {
@@ -21,7 +21,7 @@ const Data = [
     name: "Sarladh Kunwar",
     image: SarladhKunwarImage,
     description: "ECA(Futsal)/Admin",
-    linkedIn: "https://www.linkedin.com/in/manisha-adhikari-289899298",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
     gmail: "manisha.adhikari@sifal.deerwalk.edu.np",
   },
   {
@@ -30,7 +30,7 @@ const Data = [
     image: SantaBahadurImage,
     description: "Incharge",
     gmail: "alisha.shakya@sifal.deerwalk.edu.np",
-    linkedIn: "https://www.linkedin.com/in/alisha-shakya-3b698481",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
     hierarchy: "Canteen",
@@ -38,7 +38,7 @@ const Data = [
     image: LaxmiImage,
     description: "Canteen Assist",
     gmail: "yashoda.sapkota@sifal.deerwalk.edu.np",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
     hierarchy: "Facility",
@@ -46,7 +46,7 @@ const Data = [
     image: MayaImage,
     description: "Incharge",
     gmail: "",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
     hierarchy: "Facility",
@@ -54,7 +54,7 @@ const Data = [
     image: SabinaImage,
     description: "",
     gmail: "",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
     hierarchy: "Facility",
@@ -62,7 +62,7 @@ const Data = [
     image: RadhikaImage,
     description: "",
     gmail: "",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
     hierarchy: "Facility",
@@ -70,7 +70,7 @@ const Data = [
     image: RamPrasadImage,
     description: "",
     gmail: "",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
 ];
 
