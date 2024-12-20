@@ -172,11 +172,11 @@ export default function NavLinks(): ReactElement {
 
         {/* Mobile Navigation */}
         <div
-          className={`lg:hidden fixed top-0 right-0 w-full h-full bg-[#0F5288] transition-transform transform ${
+          className={`lg:hidden fixed top-0 right-0 w-full h-full bg-DSS_Blue transition-transform transform ${
             isMobileMenuOpen ? "-translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="flex justify-between items-center p-4 bg-[#0F5288]">
+          <div className="flex justify-between items-center p-4 bg-DSS_Blue">
             <Link href="/">
             <Image 
             src={Logo}
@@ -202,7 +202,7 @@ export default function NavLinks(): ReactElement {
             </div>
           </div>
 
-          <div className="flex flex-col py-5 text-xl bg-[#0F5288] text-white min-h-screen">
+          <div className="flex flex-col py-5 text-xl bg-DSS_Blue text-white min-h-screen">
             <div className="text-start font-medium px-10">
               <NavItem
                 label="About Us"
@@ -269,7 +269,7 @@ export default function NavLinks(): ReactElement {
                 />
               </Link>
               <div className="flex lg:hidden text-end gap-1 relative mt-4">
-                <Link href="https://www.instagram.com/deerwalk.dhading.school/?hl=en" target="_blank">
+                <Link href="https://www.instagram.com/dhading_school" target="_blank">
                   <Instagram className="w-10 lg:w-full" />
                 </Link>
                 <Link href="https://www.facebook.com/profile.php?id=61557434263234">
