@@ -31,7 +31,7 @@ export default function StatisticsSection() {
         </div>
           
 
-        <div className="flex gap-5 lg:w-full md:w-full w-44 justify-evenly lg:flex-row md:flex-row flex-col">
+        <div className="flex gap-5 lg:w-full md:w-full w-56 justify-evenly lg:flex-row md:flex-row flex-col">
         <RatioCard description="Student : Teacher" ratio1="6" ratio2="1" />
           <div className="border-solid lg:border-r-2 md:border-r-2  border-t-2 border-white mb-3" />
         </div>
