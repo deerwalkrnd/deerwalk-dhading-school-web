@@ -97,7 +97,7 @@ const Data = [
     hierarchy: "Teachers",
     name: "Sachin Yadav",
     image: SachinKumarYadavImage,
-    description: "Senior School Science Teacher",
+    description: "Senior School (Science)",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
     gmail:"laxman.jari@sifal.deerwalk.edu.np",
   },
@@ -169,26 +169,10 @@ const Data = [
     hierarchy: "Teachers",
     name: "Prakash Singh",
     image: PrakashSinghImage,
-    description: "Senior School (Senior)",
+    description: "Senior School",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
     gmail:"choodamani.bhattarai@sifal.deerwalk.edu.np",
   },
-  // {
-  //   hierarchy: "Teachers",
-  //   name: "Durga Puri",
-  //   image: DurgaPuriImage,
-  //   description: "Faculty, Nepali Department",
-  //   linkedIn:"",
-  //   gmail:"durga.puri@sifal.deerwalk.edu.np",
-  // },
-  // {
-  //   hierarchy: "Teachers",
-  //   name: "Gaurab Shrestha",
-  //   image: GaurabShresthaImage,
-  //   description: "Facuty, Biology Department",
-  //   linkedIn:"https://www.linkedin.com/in/gaurab-shrestha-62b547306/",
-  //   gmail:"gaurab.shrestha@sifal.deerwalk.edu.np",
-  // },
   {
     hierarchy: "Teachers",
     name: "Gaurav Bajracharya",
@@ -197,25 +181,6 @@ const Data = [
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
     gmail:"hama.rajbhandari@sifal.deerwalk.edu.np",
   },
-
-  // {
-  //   hierarchy: "Teachers",
-  //   name: "Himal Parajuli",
-  //   image: HimalParajuliImage,
-  //   description: "Faculty, Mathematics Department",
-  //   linkedIn:"https://www.linkedin.com/in/himal-parajuli-5577152b2",
-  //   gmail:"himal.parajulii@sifal.deerwalk.edu.np",
-  // },
-  // {
-  //   hierarchy: "Teachers",
-  //   name: "Milan Lamichhane",
-  //   image: MilanLamichhaneImage,
-  //   description: "Faculty, Computer Science",
-  //   linkedIn:"https://www.linkedin.com/in/milanl/",
-  //   gmail:"milan.lamichhane@deerwalk.edu.np",
-  // },
-  
-  
 ];
 
 export default Data;
