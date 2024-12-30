@@ -13,23 +13,23 @@ const Data = [
     name: "Jelina Joshi",
     image: JelinaJoshiImage,
     description: "Associate Finance Officer",
-    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail: "sagina.maharjan@sifal.deerwalk.edu.np",
+    linkedIn: "https://www.linkedin.com/in/jelina-joshi-1203292b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    gmail: "jelina.joshi@dhadingschool.edu.np",
   },
   {
     hierarchy: "Administration",
     name: "Sarladh Kunwar",
     image: SarladhKunwarImage,
     description: "ECA(Futsal)/Admin",
-    linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail: "manisha.adhikari@sifal.deerwalk.edu.np",
+    linkedIn: "https://www.linkedin.com/in/sarladh-kunwar-154839239?",
+    gmail: "sarladh.kunwar@dhadingschool.edu.np",
   },
   {
     hierarchy: "Bus Driver",
     name: "Santa Bahadur Tamang",
     image: SantaBahadurImage,
     description: "Incharge",
-    gmail: "alisha.shakya@sifal.deerwalk.edu.np",
+    gmail: "santabahadur.tamang@dhadingschool.edu.np",
     linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
@@ -37,7 +37,7 @@ const Data = [
     name: "Laxmi Bhandari",
     image: LaxmiImage,
     description: "Canteen Assist",
-    gmail: "yashoda.sapkota@sifal.deerwalk.edu.np",
+    gmail: "laxmi.bhandari@dhadingschool.edu.np",
     linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
@@ -45,7 +45,7 @@ const Data = [
     name: "Maya Tamang",
     image: MayaImage,
     description: "Incharge",
-    gmail: "",
+    gmail: "maya.tamang@dhadingschool.edu.np",
     linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
@@ -53,7 +53,7 @@ const Data = [
     name: "Sabina Rai Shahi",
     image: SabinaImage,
     description: "",
-    gmail: "",
+    gmail: "sabinarai.singh@dhadingschool.edu.np",
     linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
@@ -61,7 +61,7 @@ const Data = [
     name: "Radhika Baruwal",
     image: RadhikaImage,
     description: "",
-    gmail: "",
+    gmail: "radhika.baruwal@dhadingschool.edu.np",
     linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
   {
@@ -69,7 +69,7 @@ const Data = [
     name: "Ram Prasad Koirala",
     image: RamPrasadImage,
     description: "",
-    gmail: "",
+    gmail: "ramprasad.koirala@dhadingschool.edu.np",
     linkedIn: "https://www.linkedin.com/company/deerwalk-dhading-school/",
   },
 ];
