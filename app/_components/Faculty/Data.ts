@@ -26,7 +26,7 @@ const Data = [
     image: NirmalKumarPoudelImage,
     description: "Principal",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"nirmal.poudel@dhadingschool.edu.np",
+    gmail:"nirmal.poudel@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "HoS",
@@ -34,7 +34,7 @@ const Data = [
     image: ReshikaImage,
     description: "HoS (ES)",
     linkedIn:"https://www.linkedin.com/in/reshika-joshi-65bb14271",
-    gmail:"reshika.joshi@dhadingschool.edu.np",
+    gmail:"reshika.joshi@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "HoS",
@@ -42,7 +42,7 @@ const Data = [
     image: RohitGhimireImage,
     description: "HoS (HS)",
     linkedIn:"https://www.linkedin.com/in/rohit-ghimire-86962626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    gmail:"rohit.ghimire@dhadingschool.edu.np",
+    gmail:"rohit.ghimire@dhading.deerwalk.edu.np",
   },
   
   {
@@ -51,7 +51,7 @@ const Data = [
     image: RupaAdhikariImage,
     description: "Junior School",
     linkedIn:"",
-    gmail:"rupa.adhikari@dhadingschool.edu.np",
+    gmail:"rupa.adhikari@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -59,7 +59,7 @@ const Data = [
     image: SharadaKarkiImage,
     description: "Junior School",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"sharada.karki@dhadingschool.edu.np",
+    gmail:"sharada.karki@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -67,7 +67,7 @@ const Data = [
     image: NitaKarkiImage,
     description: "Junior School",
     linkedIn:"https://www.linkedin.com/in/neeta-karki-304045322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    gmail:"nita.karki@dhadingschool.edu.np",
+    gmail:"nita.karki@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -75,7 +75,7 @@ const Data = [
     image: StutiPandeyImage,
     description: "Junior School",
     linkedIn:"https://www.linkedin.com/in/stuti-pandey-85a837342",
-    gmail:"stuti.pandey@dhadingschool.edu.np",
+    gmail:"stuti.pandey@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -83,7 +83,7 @@ const Data = [
     image: BijayaBharatiImage,
     description: "Junior School",
     linkedIn:"https://www.linkedin.com/in/bijaya-bharati-3374b0289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    gmail:"bijaya.bharati@dhadingschool.edu.np",
+    gmail:"bijaya.bharati@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -91,7 +91,7 @@ const Data = [
     image: JunaKarkiImage,
     description: "Junior School (Nepali)",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"juna.karki@dhadingschool.edu.np",
+    gmail:"juna.karki@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -99,7 +99,7 @@ const Data = [
     image: SachinKumarYadavImage,
     description: "Senior School (Science)",
     linkedIn:"https://www.linkedin.com/in/sachin-kumar-yadav-a83607332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    gmail:"sachin.yadav@dhadingschool.edu.np",
+    gmail:"sachin.yadav@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -107,7 +107,7 @@ const Data = [
     image: KhemrajMuktanImage,
     description: "Senior School (Math)",
     linkedIn:"https://www.linkedin.com/in/khemraj-muktan-b928a9341/",
-    gmail:"khemraj.muktan@dhadingschool.edu.np",
+    gmail:"khemraj.muktan@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -115,7 +115,7 @@ const Data = [
     image: NipeshDhakalImage,
     description: "Senior School (Social)",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"nipesh.dhakal@dhadingschool.edu.np",
+    gmail:"nipesh.dhakal@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -123,7 +123,7 @@ const Data = [
     image: PramilaAdhikariImage,
     description: "Senior School (English)",
     linkedIn:"https://www.linkedin.com/in/pramila-adhikari-5a93a4342/",
-    gmail:"pramila.adhikari@dhadingschool.edu.np",
+    gmail:"pramila.adhikari@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -131,7 +131,7 @@ const Data = [
     image: SantoshShahImage,
     description: "Senior School (Computer)",
     linkedIn:"https://www.linkedin.com/in/santosh-shah-348983301",
-    gmail:"santosh.shah@dhadingschool.edu.np",
+    gmail:"santosh.shah@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -139,7 +139,7 @@ const Data = [
     image: LaxmiTiwariImage,
     description: "Senior School (Nepali)",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"laxmi.tiwari@dhadingschool.edu.np",
+    gmail:"laxmi.tiwari@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -147,7 +147,7 @@ const Data = [
     image: SureshTimalsinaImage,
     description: "Senior School (Math)",
     linkedIn:"https://www.linkedin.com/in/suresh-timalsina-%E2%80%9Cyatri%E2%80%9D-071345259/",
-    gmail:"suresh.timalsina@dhadingschool.edu.np",
+    gmail:"suresh.timalsina@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -155,7 +155,7 @@ const Data = [
     image: DibyaDarsiImage,
     description: "Senior School (Science) ",
     linkedIn:"https://www.linkedin.com/in/dibyadarsi-nepal-7a0613a9",
-    gmail:"dibyadarsi.nepal@dhadingschool.edu.np",
+    gmail:"dibyadarsi.nepal@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -163,7 +163,7 @@ const Data = [
     image: BishnuParajuliImage,
     description: "Junior School (Sanskrit)",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"bishnu.parajuli@dhadingschool.edu.np",
+    gmail:"bishnu.parajuli@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -171,7 +171,7 @@ const Data = [
     image: PrakashSinghImage,
     description: "Senior School",
     linkedIn:"https://www.linkedin.com/feed/?trk=404_page",
-    gmail:"prakash.singh@dhadingschool.edu.np",
+    gmail:"prakash.singh@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -179,7 +179,7 @@ const Data = [
     image: GauravBajracharyaImage,
     description: "ECA (Virtual Art)",
     linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"gaurav.bajracharya@dhadingschool.edu.np",
+    gmail:"gaurav.bajracharya@dhading.deerwalk.edu.np",
   },
 ];
 
