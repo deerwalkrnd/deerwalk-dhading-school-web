@@ -23,7 +23,7 @@ export default function AcademicsSection() {
             <div className=" ">
               <p className="text-3xl mb-5 font-semibold">Senior School</p>
               <p className="  ">
-                Our high school program is designed to prepare students for
+                Our Senior school program is designed to prepare students for
                 academic success and personal development. Through advanced
                 coursework, diverse extracurricular activities, and personalized
                 guidance, we empower students to excel academically, pursue
@@ -43,7 +43,7 @@ export default function AcademicsSection() {
             <div className="">
               <p className="text-3xl mb-5 font-semibold">Junior School</p>
               <p className="">
-                Our elementary program provides a nurturing environment where
+                Our Junior program provides a nurturing environment where
                 young learners develop a strong academic foundation. Through a
                 balanced curriculum and personalized attention, we foster
                 essential skills, instilling a lifelong love of learning from
