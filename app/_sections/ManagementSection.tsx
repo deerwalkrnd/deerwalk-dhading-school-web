@@ -3,7 +3,7 @@ import ManagementCard from "@/_components/Management/ManagementCard";
 import RudraSirImage from "@/_assets/images/rudrasir.png";
 import QuotationImage from "@/_assets/images/quotation.png";
 import NirmalSirImage from "@/_assets/images/Nirmalsir.png";
-import HiteshSirImage from "@/_assets/images/Hitesh Karki.jpg"
+import HiteshSirImage from "@/_assets/images/Hitesh Karki.png"
 
 export default function ManagementSection() {
   return (
