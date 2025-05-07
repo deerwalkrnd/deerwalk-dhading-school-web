@@ -18,8 +18,9 @@ export default function RatioCard({
 
   const endNum1 = Number(ratio1);
   const endNum2 = Number(ratio2);
-
   useEffect(() => {
+    const current = ref.current;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -30,19 +31,22 @@ export default function RatioCard({
       { threshold: 0.1 }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (current) {
+      observer.observe(current);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (current) {
+        observer.unobserve(current);
       }
     };
   }, []);
 
   return (
-    <div ref={ref} className="flex flex-col gap-3 justify-center items-center font-semibold">
+    <div
+      ref={ref}
+      className="flex flex-col gap-3 justify-center items-center font-semibold"
+    >
       {isVisible && (
         <>
           <div className={`${className} text-3xl lg:text-4xl`}>
