@@ -3,9 +3,9 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import LandingImage2 from "@/_assets/images/landing12.jpg"
+import LandingImage3 from "@/_assets/images/landing123.jpg"
 import LandingImage from "@/_assets/images/landing.jpg"
-import LandingImage2 from "@/_assets/images/Landing2.jpg"
-import LandingImage1 from "@/_assets/images/Landing3.jpg"
 
 const carouselImages = [
   {
@@ -14,12 +14,12 @@ const carouselImages = [
     className: "object-cover object-bottom", // Default styling
   },
   {
-    src: LandingImage1,
-    alt: "Landing Image 2",
-    className: "object-cover object-center", // Different position for second image
+    src: LandingImage2,
+    alt: "Landing Image 3",
+    className: "object-cover object-top brightness-110", // Top position with brightness adjustment
   },
   {
-    src: LandingImage2,
+    src: LandingImage3,
     alt: "Landing Image 3",
     className: "object-cover object-top brightness-110", // Top position with brightness adjustment
   },
