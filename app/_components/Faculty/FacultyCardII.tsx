@@ -69,30 +69,21 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
 };
 
 const FacultyListWithCards: React.FC = () => {
-  const uniqueHierarchies = Array.from(
-    new Set(Data.map((faculty) => faculty))
-  );
-
+  
   return (
-    <div className="flex flex-col gap-5">
-      {uniqueHierarchies.map((faculty,indexed) => (
-        <div key={indexed} className="flex flex-col items-center gap-3">
-          {/* <h2 className="text-3xl font-semibold">{hierarchy}</h2> */}
-          <div className="flex flex-row flex-wrap justify-center gap-5 lg:gap-16 items-center">
-            {Data.filter((faculty) => faculty).map(
-              (faculty, index) => (
+    <div className="flex flex-row flex-wrap justify-center gap-5 lg:gap-16 items-center">
+      {Data.map((faculty,indexed) => (
+        
+          
+            
                 <FacultyCard
-                  key={index}
+                  key={indexed}
                   name={faculty.name}
                   image={faculty.image}
                   description={faculty.description}
                   linkedIn={faculty.linkedIn}
                   gmail={faculty.gmail}
                 />
-              )
-            )}
-          </div>
-        </div>
       ))}
     </div>
   );
