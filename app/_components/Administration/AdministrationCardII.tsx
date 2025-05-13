@@ -58,9 +58,11 @@ const AdministrationCard: React.FC<FacultyCardProps> = ({
                 </Link>
               )}
 
-              <Link href={`mailto:${gmail}`} passHref>
-                <GmailIcon aria-label="Email" />
-              </Link>
+              {gmail != "" && (
+                <Link href={`mailto:${gmail}`} passHref>
+                  <GmailIcon aria-label="Email" />
+                </Link>
+              )}
             </div>
           </div>
         </div>
@@ -69,23 +71,18 @@ const AdministrationCard: React.FC<FacultyCardProps> = ({
   );
 };
 
-
 const FacultyListWithCards: React.FC = () => {
-
   return (
     <div className="flex flex-row flex-wrap justify-center gap-5 lg:gap-16 items-center">
-      {Data.map((faculty,indexed) => (
-        
-          
-            
-                <AdministrationCard
-                  key={indexed}
-                  name={faculty.name}
-                  image={faculty.image}
-                  description={faculty.description}
-                  linkedIn={faculty.linkedIn}
-                  gmail={faculty.gmail}
-                />
+      {Data.map((faculty, indexed) => (
+        <AdministrationCard
+          key={indexed}
+          name={faculty.name}
+          image={faculty.image}
+          description={faculty.description}
+          linkedIn={faculty.linkedIn}
+          gmail={faculty.gmail}
+        />
       ))}
     </div>
   );
