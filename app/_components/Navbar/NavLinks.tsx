@@ -100,7 +100,7 @@ export default function NavLinks(): ReactElement {
                 subMenu: [
                   { label: "Management", href: MANAGEMENT_ROUTE },
                   { label: "Faculties", href: FACULTIES_ROUTE },
-                  { label: "Administration", href: ADMINISTRATION_ROUTE },
+                  { label: "Admin Staff", href: ADMINISTRATION_ROUTE },
                 ],
               },
               {
@@ -215,7 +215,7 @@ export default function NavLinks(): ReactElement {
                     subMenu: [
                       { label: "Management", href: MANAGEMENT_ROUTE },
                       { label: "Faculties", href: FACULTIES_ROUTE },
-                      { label: "Administration", href: ADMINISTRATION_ROUTE },
+                      { label: "Admin Staff", href: ADMINISTRATION_ROUTE },
                     ],
                   },
                   {

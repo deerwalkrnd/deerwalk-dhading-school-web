@@ -1,23 +1,27 @@
-import NirmalKumarPoudelImage from "@/public/images/faculty/Nirmal Kumar Paudel.jpg";
-import ReshikaImage from "@/public/images/faculty/Reshika Joshi.jpg";
+import NirmalKumarPoudelImage from "@/public/images/faculty/Nirmal Kumar Paudel.png";
+import ReshikaImage from "@/public/images/faculty/Reshika_Joshi.png";
 import RohitGhimireImage from "@/public/images/faculty/Rohit Ghimire .jpg";
 import RupaAdhikariImage from "@/public/images/faculty/Rupa Adhikari.jpg";
-import SharadaKarkiImage from "@/public/images/faculty/Sharada Karki.jpg";
-import NitaKarkiImage from "@/public/images/faculty/Nita Karki.jpg";
-import StutiPandeyImage from "@/public/images/faculty/Stuti Pandey.jpg";
-import BijayaBharatiImage from "@/public/images/faculty/Bijaya Bharati.jpg";
-import JunaKarkiImage from "@/public/images/faculty/Juna Karki.jpg";
-import SachinKumarYadavImage from "@/public/images/faculty/Sachin Kumar Yadav.jpg";
-import NipeshDhakalImage from "@/public/images/faculty/Nipesh Dhakal.jpg";
-import KhemrajMuktanImage from "@/public/images/faculty/Khemraj Muktan.jpg";
-import PramilaAdhikariImage from "@/public/images/faculty/Pramila Adhikari.jpg";
-import SantoshShahImage from "@/public/images/faculty/Santosh Shah.jpg";
-import LaxmiTiwariImage from "@/public/images/faculty/Laxmi Tiwari.jpg";
-import SureshTimalsinaImage from "@/public/images/faculty/Suresh Timalsina.jpg";
-import DibyaDarsiImage from "@/public/images/faculty/Dibyadarsi Nepal.jpg";
+import SharadaKarkiImage from "@/public/images/faculty/Sharada_Karki.png";
+import NitaKarkiImage from "@/public/images/faculty/Nita_Karki.png";
+import StutiPandeyImage from "@/public/images/faculty/Stuti_Pandey.png";
+import BijayaBharatiImage from "@/public/images/faculty/Bijaya_Bharati.png";
+import JunaKarkiImage from "@/public/images/faculty/Juna_Karki.png";
+import SachinKumarYadavImage from "@/public/images/faculty/Sachin_Kumar_Yadav.png";
+import KhemrajMuktanImage from "@/public/images/faculty/Khemraj_Muktan.png";
+import PramilaAdhikariImage from "@/public/images/faculty/Pramila_Adhikari.png";
+import SantoshShahImage from "@/public/images/faculty/Santosh_Shah.png";
+import LaxmiTiwariImage from "@/public/images/faculty/Laxmi_Tiwari.png";
+import DibyaDarsiImage from "@/public/images/faculty/Dibyadarshi_Nepal.png";
 import BishnuParajuliImage from "@/public/images/faculty/Bishnu Prasad Prajuli.jpg";
 import PrakashSinghImage from "@/public/images/faculty/Prakash Singh.jpg";
 import GauravBajracharyaImage from "@/public/images/faculty/Gaurav.png";
+import RojitaBhandariImage from "@/public/images/faculty/Rojita_Bhandari.png"
+import PrakashAdhakariImage from "@/public/images/faculty/Prakash_Adhikari.png"
+import ArjunGautamImage from "@/public/images/faculty/Arijun_Gautam.png"
+import SurajdaiMukharm from "@/public/images/faculty/Surujdai_Mukhram.png"
+import BidehaNidhiBhattarai from "@/public/images/faculty/Bideha_Nidhi_Bhattarai.png"
+import SujanPanditImage from "@/public/images/faculty/Sujan_Pandit.png"
 
 const Data = [
   {
@@ -25,7 +29,7 @@ const Data = [
     name: "Nirmal Kumar Poudel",
     image: NirmalKumarPoudelImage,
     description: "Principal",
-    linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
+    linkedIn:"https://www.linkedin.com/in/nirmal-paudel-506505125/",
     gmail:"nirmal.poudel@dhading.deerwalk.edu.np",
   },
   {
@@ -44,7 +48,6 @@ const Data = [
     linkedIn:"https://www.linkedin.com/in/rohit-ghimire-86962626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     gmail:"rohit.ghimire@dhading.deerwalk.edu.np",
   },
-  
   {
     hierarchy: "Teachers",
     name: "Rupa Adhikari",
@@ -58,7 +61,7 @@ const Data = [
     name: "Sharada Karki",
     image: SharadaKarkiImage,
     description: "Junior School",
-    linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
+    linkedIn:"",
     gmail:"sharada.karki@dhading.deerwalk.edu.np",
   },
   {
@@ -90,7 +93,7 @@ const Data = [
     name: "Juna Karki",
     image: JunaKarkiImage,
     description: "Junior School (Nepali)",
-    linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
+    linkedIn:"",
     gmail:"juna.karki@dhading.deerwalk.edu.np",
   },
   {
@@ -108,14 +111,6 @@ const Data = [
     description: "Senior School (Math)",
     linkedIn:"https://www.linkedin.com/in/khemraj-muktan-b928a9341/",
     gmail:"khemraj.muktan@dhading.deerwalk.edu.np",
-  },
-  {
-    hierarchy: "Teachers",
-    name: "Nipesh Dhakal",
-    image: NipeshDhakalImage,
-    description: "Senior School (Social)",
-    linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
-    gmail:"nipesh.dhakal@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -138,16 +133,8 @@ const Data = [
     name: "Laxmi Tiwari",
     image: LaxmiTiwariImage,
     description: "Senior School (Nepali)",
-    linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
+    linkedIn:"",
     gmail:"laxmi.tiwari@dhading.deerwalk.edu.np",
-  },
-  {
-    hierarchy: "Teachers",
-    name: "Suresh Timalsina",
-    image: SureshTimalsinaImage,
-    description: "Senior School (Math)",
-    linkedIn:"https://www.linkedin.com/in/suresh-timalsina-%E2%80%9Cyatri%E2%80%9D-071345259/",
-    gmail:"suresh.timalsina@dhading.deerwalk.edu.np",
   },
   {
     hierarchy: "Teachers",
@@ -162,7 +149,7 @@ const Data = [
     name: "Bishnu Parajuli",
     image: BishnuParajuliImage,
     description: "Junior School (Sanskrit)",
-    linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
+    linkedIn:"",
     gmail:"bishnu.parajuli@dhading.deerwalk.edu.np",
   },
   {
@@ -170,7 +157,7 @@ const Data = [
     name: "Prakash Singh",
     image: PrakashSinghImage,
     description: "Senior School",
-    linkedIn:"https://www.linkedin.com/feed/?trk=404_page",
+    linkedIn:"",
     gmail:"prakash.singh@dhading.deerwalk.edu.np",
   },
   {
@@ -178,9 +165,58 @@ const Data = [
     name: "Gaurav Bajracharya",
     image: GauravBajracharyaImage,
     description: "ECA (Virtual Art)",
-    linkedIn:"https://www.linkedin.com/company/deerwalk-dhading-school/",
+    linkedIn:"",
     gmail:"gaurav.bajracharya@dhading.deerwalk.edu.np",
   },
+  {
+    hierarchy: "Nurse",
+    name: "Rojita Bhandari",
+    image: RojitaBhandariImage,
+    description: "Nurse / Senior School  (HPCA)",
+    linkedIn:"",
+    gmail:"rojita.bhandari@dhading.deerwalk.edu.np",
+  },
+  {
+    hierarchy: "Teacher",
+    name: "Prakash Adhikari",
+    image: PrakashAdhakariImage,
+    description: "Senior School (Samajik Aadhyan)",
+    linkedIn:"",
+    gmail:"prakash.adhikari@dhading.deerwalk.edu.np",
+  },
+  {
+    hierarchy: "Teacher",
+    name: "Arjun Gautam",
+    image: ArjunGautamImage,
+    description: "Senior School (Maths)",
+    linkedIn:"https://www.linkedin.com/in/arjun-gautam-2b479b363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    gmail:"arjun.gautami@dhading.deerwalk.edu.np",
+  },
+  {
+    hierarchy: "Teacher",
+    name: "Surujdai Mukhram",
+    image: SurajdaiMukharm,
+    description: "Intern Teacher (English Language)",
+    linkedIn:"https://www.linkedin.com/in/surujdai-mukhram?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    gmail:"",
+  },
+  {
+    hierarchy: "Teacher",
+    name: "Bideha Nidhi Bhattarai",
+    image: BidehaNidhiBhattarai,
+    description: "Senior School Teacher (English)",
+    linkedIn:"https://www.linkedin.com/in/bideha-bhattarai-5903a3342/",
+    gmail:"bideha.bhattarai@dhading.deerwalk.edu.np",
+  },
+    {
+    hierarchy: "Teacher",
+    name: "Sujan Pandit",
+    image: SujanPanditImage,
+    description: "ECA (Taekwondo)",
+    linkedIn:"",
+    gmail:"",
+  },
+
 ];
 
 export default Data;
