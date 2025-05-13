@@ -54,9 +54,12 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
           <div className="flex justify-between mx-3 my-1 font-medium text-sm gap-3 md:text-md 2xl:text-lg mt-2">
             <p className="">{name}</p>
             <div className="flex gap-2">
-              <Link href={linkedIn} target="_blank">
-                <LinkedInIcon aria-label="LinkedIn Profile" />
-              </Link>
+              {linkedIn != "" && (
+                 <Link href={linkedIn} target="_blank">
+                  <LinkedInIcon aria-label="LinkedIn Profile" />
+                </Link>
+              )}
+             
               <Link href={`mailto:${gmail}`} passHref>
                 <GmailIcon aria-label="Email" />
               </Link>
