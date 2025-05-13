@@ -54,9 +54,12 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
           <div className="flex justify-between mx-3 my-1 font-medium text-sm gap-3 md:text-md 2xl:text-lg mt-2">
             <p className="">{name}</p>
             <div className="flex gap-2">
-              <Link href={linkedIn} target="_blank">
-                <LinkedInIcon aria-label="LinkedIn Profile" />
-              </Link>
+              {linkedIn != "" && (
+                 <Link href={linkedIn} target="_blank">
+                  <LinkedInIcon aria-label="LinkedIn Profile" />
+                </Link>
+              )}
+             
               <Link href={`mailto:${gmail}`} passHref>
                 <GmailIcon aria-label="Email" />
               </Link>
@@ -69,30 +72,21 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
 };
 
 const FacultyListWithCards: React.FC = () => {
-  const uniqueHierarchies = Array.from(
-    new Set(Data.map((faculty) => faculty.hierarchy))
-  );
-
+  
   return (
-    <div className="flex flex-col gap-5">
-      {uniqueHierarchies.map((hierarchy) => (
-        <div key={hierarchy} className="flex flex-col items-center gap-3">
-          <h2 className="text-3xl font-semibold">{hierarchy}</h2>
-          <div className="flex flex-row flex-wrap justify-center gap-5 lg:gap-16 items-center">
-            {Data.filter((faculty) => faculty.hierarchy === hierarchy).map(
-              (faculty, index) => (
+    <div className="flex flex-row flex-wrap justify-center gap-5 lg:gap-16 items-center">
+      {Data.map((faculty,indexed) => (
+        
+          
+            
                 <FacultyCard
-                  key={index}
+                  key={indexed}
                   name={faculty.name}
                   image={faculty.image}
                   description={faculty.description}
                   linkedIn={faculty.linkedIn}
                   gmail={faculty.gmail}
                 />
-              )
-            )}
-          </div>
-        </div>
       ))}
     </div>
   );

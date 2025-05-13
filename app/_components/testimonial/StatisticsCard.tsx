@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 export default function StatisticsCard({
   description,
-  number
+  number,
 }: {
   number: string;
   description: string;
@@ -16,29 +16,33 @@ export default function StatisticsCard({
   const endNum = Number(number);
 
   useEffect(() => {
+    const current = ref.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.disconnect(); 
+          observer.disconnect();
         }
       },
-      { threshold: 0.1 } 
+      { threshold: 0.1 }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (current) {
+      observer.observe(current);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (current) {
+        observer.unobserve(current);
       }
     };
   }, []);
 
   return (
-    <div ref={ref} className="flex flex-col gap-3 justify-center items-center font-semibold">
+    <div
+      ref={ref}
+      className="flex flex-col gap-3 justify-center items-center font-semibold"
+    >
       {isVisible && (
         <>
           <div className="text-3xl lg:text-4xl">
