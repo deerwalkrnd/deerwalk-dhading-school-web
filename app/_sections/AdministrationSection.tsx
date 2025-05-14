@@ -7,7 +7,7 @@ export default function AdministrationSection() {
   return (
     <div className="cotainer mx-auto">
     <div className="flex flex-col gap-10 pt-5 pl-4 items-center mb-20">
-      <AdministrationCard heading="Administration" />
+      <AdministrationCard heading="Admin Staff" />
       <div className="flex flex-row lg:mx-10">
         <AdministrationCardII />
       </div>
