@@ -53,7 +53,7 @@ export default function NavLinks(): ReactElement {
   const FACULTIES_ROUTE = "/faculties";
   const HOME_ROUTE = "/";
   const HIGHSCHOOL_ROUTE = "/high-school";
-  const ADMINISTRATION_ROUTE = "/administration";
+  const ADMINISTRATION_ROUTE = "/admin-staff";
   const MIDDLE_ROUTE = "/middle-school";
 
   return (
