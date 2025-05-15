@@ -1,4 +1,4 @@
-import JelinaJoshiImage from "@/public/images/faculty/Jelina_Joshi.png";
+import JelinaJoshiImage from "@/public/images/faculty/Jelina_Joshi.jpg";
 import SarladhKunwarImage from "@/public/images/faculty/Sarladh_Kunwar.png";
 import SantaBahadurImage from "@/public/images/faculty/Santa_Bahadur_Tamang.png";
 import LaxmiImage from "@/public/images/faculty/Laxmi_Bhandari.png";
