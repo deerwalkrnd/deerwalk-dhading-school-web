@@ -36,8 +36,8 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
               className={`w-52 h-56 md:w-40 md:h-44 lg:w-52 lg:h-64 2xl:w-60 2xl:h-72 object-cover object-center transition-transform duration-[480ms] ease-in ${
                 isHovered ? "[transform:rotateY(180deg)]" : "rotate-0"
               }`}
-              src={image} 
-              width={208} 
+              src={image}
+              width={208}
               height={224}
               alt={`Picture of ${name}`}
             />
@@ -55,14 +55,16 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
             <p className="">{name}</p>
             <div className="flex gap-2">
               {linkedIn != "" && (
-                 <Link href={linkedIn} target="_blank">
+                <Link href={linkedIn} target="_blank">
                   <LinkedInIcon aria-label="LinkedIn Profile" />
                 </Link>
               )}
-             
-              <Link href={`mailto:${gmail}`} passHref>
-                <GmailIcon aria-label="Email" />
-              </Link>
+
+              {gmail != "" && (
+                <Link href={`mailto:${gmail}`} passHref>
+                  <GmailIcon aria-label="Email" />
+                </Link>
+              )}
             </div>
           </div>
         </div>
@@ -72,21 +74,17 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
 };
 
 const FacultyListWithCards: React.FC = () => {
-  
   return (
     <div className="flex flex-row flex-wrap justify-center gap-5 lg:gap-16 items-center">
-      {Data.map((faculty,indexed) => (
-        
-          
-            
-                <FacultyCard
-                  key={indexed}
-                  name={faculty.name}
-                  image={faculty.image}
-                  description={faculty.description}
-                  linkedIn={faculty.linkedIn}
-                  gmail={faculty.gmail}
-                />
+      {Data.map((faculty, indexed) => (
+        <FacultyCard
+          key={indexed}
+          name={faculty.name}
+          image={faculty.image}
+          description={faculty.description}
+          linkedIn={faculty.linkedIn}
+          gmail={faculty.gmail}
+        />
       ))}
     </div>
   );
