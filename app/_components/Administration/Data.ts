@@ -17,7 +17,7 @@ const Data = [
     image: JelinaJoshiImage,
     description: "Associate Finance Officer",
     linkedIn: "https://www.linkedin.com/in/jelina-joshi-1203292b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    gmail: "jelina.joshi@dhading.deerwalk.edu.np",
+    gmail: "",
   },
   {
     hierarchy: "Administration",
@@ -25,7 +25,7 @@ const Data = [
     image: SarladhKunwarImage,
     description: "ECA(Futsal)/Admin",
     linkedIn: "https://www.linkedin.com/in/sarladh-kunwar-154839239?",
-    gmail: "sarladh.kunwar@dhading.deerwalk.edu.np",
+    gmail: "",
   },
   {
     hierarchy: "Bus Driver",
