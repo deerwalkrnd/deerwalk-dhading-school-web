@@ -3,7 +3,7 @@ import LibraryCard from "@/_components/School Facilities/LibraryCard";
 import Header2 from "@/_components/School Facilities/Header2";
 import LibraryCardII from "@/_components/School Facilities/LibraryCardII";
 import LaboratoryImage from "@/_assets/images/Laboratories.jpg"
-import LaboratoryImage2 from "@/_assets/images/LaboratoriesII.jpg"
+import LaboratoryImage2 from "@/_assets/images/dds_labs.png"
 
 export default function LaboratoriesSection() {
   return (

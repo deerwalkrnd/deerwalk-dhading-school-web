@@ -2,7 +2,7 @@ import React from "react";
 import LibraryCard from "@/_components/School Facilities/LibraryCard";
 import Header2 from "@/_components/School Facilities/Header2";
 import LibraryCardII from "@/_components/School Facilities/LibraryCardII";
-import SportsYardImage from "@/_assets/images/SportsYard.jpg"
+import SportsYardImage from "@/_assets/images/dds_sports_yard.png"
 import SportsYardImage2 from "@/_assets/images/SportsYardsingle.jpg"
 
 export default function SportsYardSection() {
