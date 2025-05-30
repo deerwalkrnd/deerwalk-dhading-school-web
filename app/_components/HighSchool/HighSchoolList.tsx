@@ -3,7 +3,7 @@ import CreditCourses from "@/_components/HighSchool/CreditCourses";
 import Evaluation from "@/_components/HighSchool/Evaluation";
 import GradeDivision2 from "./GradeDivision2";
 import Image from "next/image";
-import HSImage from "@/_assets/images/HS.jpg"
+import HSImage from "@/_assets/images/High_school_v2.jpg"
 
 export default function HighSchoolList(): ReactElement {
   return (
@@ -16,7 +16,7 @@ export default function HighSchoolList(): ReactElement {
       <Image 
             src={HSImage}
             alt="Image"
-            className="relative z-0 h-[70vh] object-cover"
+            className="relative z-0 h-[70vh] object-cover w-full"
             width={1920}
             height={756}
             loading="eager"

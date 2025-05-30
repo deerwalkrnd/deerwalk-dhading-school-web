@@ -3,7 +3,7 @@ import CreditCourses from "@/_components/Elementary/CreditCourses";
 import Evaluation from "@/_components/Elementary/Evaluation";
 import GradeDivision2 from "./GradeDivision2";
 import Image from "next/image";
-import ESImage from "@/_assets/images/ES.jpg"
+import ESImage from "@/_assets/images/ES_background.png"
 
 export default function ElementaryList(): ReactElement {
   return (
@@ -16,7 +16,7 @@ export default function ElementaryList(): ReactElement {
           <Image 
             src={ESImage}
             alt="Image"
-            className="relative z-0 h-[70vh] object-cover"
+            className="relative z-0 h-[70vh] object-cover w-full"
             width={1920}
             height={756}
             loading="eager"
