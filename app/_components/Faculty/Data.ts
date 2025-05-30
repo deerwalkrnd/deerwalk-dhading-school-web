@@ -1,7 +1,7 @@
 import NirmalKumarPoudelImage from "@/public/images/faculty/Nirmal Kumar Paudel.png";
 import ReshikaImage from "@/public/images/faculty/Reshika_Joshi.png";
-import RohitGhimireImage from "@/public/images/faculty/Rohit Ghimire .jpg";
-import RupaAdhikariImage from "@/public/images/faculty/Rupa Adhikari.jpg";
+import RohitGhimireImage from "@/public/images/faculty/Rohit_Ghimire.png";
+import RupaAdhikariImage from "@/public/images/faculty/Rupa_Adhikari.png";
 import SharadaKarkiImage from "@/public/images/faculty/Sharada_Karki.png";
 import NitaKarkiImage from "@/public/images/faculty/Nita_Karki.png";
 import StutiPandeyImage from "@/public/images/faculty/Stuti_Pandey.png";
@@ -10,18 +10,18 @@ import JunaKarkiImage from "@/public/images/faculty/Juna_Karki.png";
 import SachinKumarYadavImage from "@/public/images/faculty/Sachin_Kumar_Yadav.png";
 import KhemrajMuktanImage from "@/public/images/faculty/Khemraj_Muktan.png";
 import PramilaAdhikariImage from "@/public/images/faculty/Pramila_Adhikari.png";
-import SantoshShahImage from "@/public/images/faculty/Santosh_Shah.png";
+import SantoshShahImage from "@/public/images/faculty/Santosh_Kumar_Sahu.png";
 import LaxmiTiwariImage from "@/public/images/faculty/Laxmi_Tiwari.png";
 import DibyaDarsiImage from "@/public/images/faculty/Dibyadarshi_Nepal.png";
 import BishnuParajuliImage from "@/public/images/faculty/Bishnu Prasad Prajuli.jpg";
 import PrakashSinghImage from "@/public/images/faculty/Prakash Singh.jpg";
-import GauravBajracharyaImage from "@/public/images/faculty/Gaurav.png";
 import RojitaBhandariImage from "@/public/images/faculty/Rojita_Bhandari.png";
 import PrakashAdhakariImage from "@/public/images/faculty/Prakash_Adhikari.png";
-import ArjunGautamImage from "@/public/images/faculty/Arijun_Gautam.png";
+import ArjunGautamImage from "@/public/images/faculty/Arjun_Gautam.png";
 import SurajdaiMukharm from "@/public/images/faculty/Surujdai_Mukhram.png";
 import BidehaNidhiBhattarai from "@/public/images/faculty/Bideha_Nidhi_Bhattarai.png";
 import SujanPanditImage from "@/public/images/faculty/Sujan_Pandit.png";
+import TribhubanBhandariImage from "@/public/images/faculty/Tribhuban_Bhandari.png";
 
 const Data = [
   {
@@ -126,15 +126,7 @@ const Data = [
   },
   {
     hierarchy: "Teachers",
-    name: "Pramila Adhikari",
-    image: PramilaAdhikariImage,
-    description: "Senior School (English)",
-    linkedIn: "https://www.linkedin.com/in/pramila-adhikari-5a93a4342/",
-    gmail: "",
-  },
-  {
-    hierarchy: "Teachers",
-    name: "Santosh Shah",
+    name: "Santosh Kumar Sahu",
     image: SantoshShahImage,
     description: "Senior School (Computer)",
     linkedIn: "https://www.linkedin.com/in/santosh-shah-348983301",
@@ -191,6 +183,22 @@ const Data = [
   },
   {
     hierarchy: "Teacher",
+    name: "Bideha Nidhi Bhattarai",
+    image: BidehaNidhiBhattarai,
+    description: "Senior School Teacher (English)",
+    linkedIn: "https://www.linkedin.com/in/bideha-bhattarai-5903a3342/",
+    gmail: "",
+  },
+    {
+    hierarchy: "Teachers",
+    name: "Pramila Adhikari",
+    image: PramilaAdhikariImage,
+    description: "Senior School (English)",
+    linkedIn: "https://www.linkedin.com/in/pramila-adhikari-5a93a4342/",
+    gmail: "",
+  },
+    {
+    hierarchy: "Teacher",
     name: "Surujdai Mukhram",
     image: SurajdaiMukharm,
     description: "Intern Teacher (English Language)",
@@ -200,26 +208,17 @@ const Data = [
   },
   {
     hierarchy: "Teacher",
-    name: "Bideha Nidhi Bhattarai",
-    image: BidehaNidhiBhattarai,
-    description: "Senior School Teacher (English)",
-    linkedIn: "https://www.linkedin.com/in/bideha-bhattarai-5903a3342/",
-    gmail: "",
-  },
-
-  {
-    hierarchy: "Teachers",
-    name: "Gaurav Bajracharya",
-    image: GauravBajracharyaImage,
-    description: "ECA (Virtual Art)",
+    name: "Sujan Pandit",
+    image: SujanPanditImage,
+    description: "ECA (Taekwondo)",
     linkedIn: "",
     gmail: "",
   },
   {
     hierarchy: "Teacher",
-    name: "Sujan Pandit",
-    image: SujanPanditImage,
-    description: "ECA (Taekwondo)",
+    name: "Tribhuban Bhandari",
+    image: TribhubanBhandariImage,
+    description: "ECA (Yog)",
     linkedIn: "",
     gmail: "",
   },

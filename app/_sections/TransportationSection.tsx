@@ -3,7 +3,7 @@ import LibraryCard from "@/_components/School Facilities/LibraryCard";
 import Header2 from "@/_components/School Facilities/Header2";
 import LibraryCardII from "@/_components/School Facilities/LibraryCardII";
 import TransportationImage from "@/_assets/images/Transportation.jpg"
-import TransportationImage2 from "@/_assets/images/Transportation2.jpg"
+import TransportationImage2 from "@/_assets/images/dds_transport.png"
 
 export default function TransportationSection() {
   return (

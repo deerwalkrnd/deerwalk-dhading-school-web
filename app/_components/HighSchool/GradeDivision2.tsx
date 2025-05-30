@@ -3,11 +3,6 @@ import GradeDivision from "./GradeDivision";
 
 export default function GradeDivision2() {
   const classes = [
-    { number: "Four", },
-    { number: "Five", },
-    { number: "Six", },
-    { number: "Seven", },
-    { number: "Eight", },
     { number: "Nine", },
     { number: "Ten", },
     { number: "Eleven", },

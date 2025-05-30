@@ -3,7 +3,7 @@ import LibraryCard from "@/_components/School Facilities/LibraryCard";
 import Header2 from "@/_components/School Facilities/Header2";
 import LibraryCardII from "@/_components/School Facilities/LibraryCardII";
 import CanteenImage from "@/_assets/images/Canteen.jpg"
-import CanteenImage2 from "@/_assets/images/CanteenSingle.jpg"
+import CanteenImage2 from "@/_assets/images/dds_foods.png"
 
 export default function CanteenSection() {
   return (
