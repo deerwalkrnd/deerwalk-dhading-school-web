@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/third-parties": "^15.0.3",
+    "@sentry/nextjs": "^9.27.0",
     "autoprefixer": "^10.4.20",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
